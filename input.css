@@ -38,15 +38,19 @@
     }
 
     .glenn-page-quotes {
-        @apply font-unna-700-it text-[17px] text-center w-[70%] m-auto mb-5 mt-10
+        @apply font-unna-700-it text-[17px] md:text-[29px] md:leading-8 text-center w-[70%] md:w-full m-auto mb-5 md:mb-7 mt-10 md:mt-[60px]
     }
 
     .glenn-page-quotes-author {
-        @apply font-jose-300-it text-[13px] text-center w-[70%] m-auto
+        @apply font-jose-300-it text-[13px] md:text-[19px] text-center w-[70%] m-auto
     }
 
     .glenn-page-headings {
-        @apply font-unna-700-it text-xl mt-10 mb-3
+        @apply font-unna-700-it text-xl md:text-[25px] mt-10 md:mt-[60px] mb-3 md:w-[70%] 
+    }
+
+    .glenn-page-p-div {
+        @apply md:w-4/5 m-auto md:leading-5
     }
 
 }

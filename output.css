@@ -615,6 +615,16 @@ video {
   font-style: italic;
 }
 
+@media (min-width: 768px) {
+  .glenn-page-quotes {
+    margin-bottom: 1.75rem;
+    margin-top: 60px;
+    width: 100%;
+    font-size: 29px;
+    line-height: 2rem;
+  }
+}
+
 .glenn-page-quotes-author {
   margin: auto;
   width: 70%;
@@ -625,6 +635,12 @@ video {
   font-style: italic;
 }
 
+@media (min-width: 768px) {
+  .glenn-page-quotes-author {
+    font-size: 19px;
+  }
+}
+
 .glenn-page-headings {
   margin-top: 2.5rem;
   margin-bottom: 0.75rem;
@@ -633,6 +649,25 @@ video {
   font-family: 'Unna';
   font-weight: 700;
   font-style: italic;
+}
+
+@media (min-width: 768px) {
+  .glenn-page-headings {
+    margin-top: 60px;
+    width: 70%;
+    font-size: 25px;
+  }
+}
+
+.glenn-page-p-div {
+  margin: auto;
+}
+
+@media (min-width: 768px) {
+  .glenn-page-p-div {
+    width: 80%;
+    line-height: 1.25rem;
+  }
 }
 
 .absolute {
@@ -701,6 +736,10 @@ video {
   margin-bottom: 0.75rem;
 }
 
+.mb-5 {
+  margin-bottom: 1.25rem;
+}
+
 .ml-4 {
   margin-left: 1rem;
 }
@@ -739,10 +778,6 @@ video {
 
 .mt-\[77px\] {
   margin-top: 77px;
-}
-
-.mb-5 {
-  margin-bottom: 1.25rem;
 }
 
 .inline-block {
@@ -1298,6 +1333,22 @@ video {
 }
 
 @media (min-width: 768px) {
+  .md\:mb-11 {
+    margin-bottom: 2.75rem;
+  }
+
+  .md\:mr-10 {
+    margin-right: 2.5rem;
+  }
+
+  .md\:mt-5 {
+    margin-top: 1.25rem;
+  }
+
+  .md\:block {
+    display: block;
+  }
+
   .md\:flex {
     display: flex;
   }
@@ -1306,12 +1357,24 @@ video {
     display: none;
   }
 
+  .md\:h-\[209px\] {
+    height: 209px;
+  }
+
   .md\:h-\[210px\] {
     height: 210px;
   }
 
+  .md\:h-\[31px\] {
+    height: 31px;
+  }
+
   .md\:h-\[40px\] {
     height: 40px;
+  }
+
+  .md\:h-\[42px\] {
+    height: 42px;
   }
 
   .md\:h-full {
@@ -1322,8 +1385,16 @@ video {
     width: 130px;
   }
 
+  .md\:w-\[209px\] {
+    width: 209px;
+  }
+
   .md\:w-\[280px\] {
     width: 280px;
+  }
+
+  .md\:w-\[31px\] {
+    width: 31px;
   }
 
   .md\:w-\[416px\] {
@@ -1374,6 +1445,14 @@ video {
     padding-top: 1rem;
   }
 
+  .md\:text-\[14px\] {
+    font-size: 14px;
+  }
+
+  .md\:text-\[17px\] {
+    font-size: 17px;
+  }
+
   .md\:text-\[19px\] {
     font-size: 19px;
   }
@@ -1386,9 +1465,18 @@ video {
     font-size: 27px;
   }
 
+  .md\:text-\[39px\] {
+    font-size: 39px;
+  }
+
   .md\:text-base {
     font-size: 1rem;
     line-height: 1.5rem;
+  }
+
+  .md\:text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
   }
 
   .md\:leading-7 {
@@ -1397,6 +1485,10 @@ video {
 
   .md\:leading-8 {
     line-height: 2rem;
+  }
+
+  .md\:leading-\[17px\] {
+    line-height: 17px;
   }
 }
 
