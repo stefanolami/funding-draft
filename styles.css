@@ -1,0 +1,49 @@
+input::placeholder {
+    color: rgba(38, 71, 108, 1);
+}
+
+#body-newsletter-input::placeholder {
+    color: white;
+}
+
+
+/* .mobile-menu-rectangle {
+    width: 20px;
+    height: 1.5px;
+    background-color: white;
+    border-radius: 2px;
+    margin: 2px;
+} */
+
+/* .mobile-menu-rectangle-div {
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+} */
+
+/* #mobile-menu-close {
+    font-family: 'Nunito';
+    font-weight: 400;
+    font-size: 25px;
+    margin-left: 88%;
+} */
+
+
+/* #header {
+    height: 60px;
+}
+
+#header-nav {
+    width: 70%;
+}
+
+@media only screen and (min-width: 768px) {
+    #header {
+        height: 83px;
+    }
+} */

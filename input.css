@@ -1,0 +1,90 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+
+    .mobile-menu-rectangle {
+        @apply w-5 h-[1.5px] bg-white rounded-sm m-[2px];
+    }
+
+    .mobile-footer-btns {
+        @apply w-[134px] h-8 border-[1px] border-white rounded-full text-center text-[17px] pt-0.5 mx-3;
+    }
+
+    .desktop-header-nav-items {
+        @apply xl:w-[144px] xl:border-r xl:border-black
+    }
+
+    .desktop-footer-headings {
+        @apply font-unna-400-it text-[27px]
+    }
+
+    .desktop-footer-items {
+        @apply font-jose-400-it text-base py-[6px]
+    }
+
+    .desktop-footer-navs {
+        @apply flex flex-col mx-auto
+    }
+
+    .responsive-ordered-list-items {
+        @apply pt-5 pb-5 xl:pt-9 xl:pb-9
+    }
+
+    .tablet-desktop-whoweare-photo-div {
+        @apply flex flex-col justify-center items-center absolute top-[189px] left-[4px] xl:top-[282px] xl:left-[10px] z-10 w-[232px] h-[47px] xl:w-[340px] xl:h-[68px]
+    }
+
+}
+
+
+.font-jose-200 {
+    font-family: 'Josefin Sans';
+    font-weight: 200;
+}
+
+.font-jose-400 {
+    font-family: 'Josefin Sans';
+    font-weight: 400;
+}
+
+.font-jose-400-it {
+    font-family: 'Josefin Sans';
+    font-weight: 400;
+    font-style: italic;
+}
+
+.font-jose-600 {
+    font-family: 'Josefin Sans';
+    font-weight: 600;
+}
+
+.font-jose-700 {
+    font-family: 'Josefin Sans';
+    font-weight: 700;
+}
+
+.font-unna-400-it {
+    font-family: 'Unna';
+    font-weight: 400;
+    font-style: italic;
+}
+
+.font-unna-700 {
+    font-family: 'Unna';
+    font-weight: 700;
+}
+
+.font-unna-700-it {
+    font-family: 'Unna';
+    font-weight: 700;
+    font-style: italic;
+}
+
+.font-nunito-400 {
+    font-family: 'Nunito';
+    font-weight: 400;
+    font-size: 25px;
+}

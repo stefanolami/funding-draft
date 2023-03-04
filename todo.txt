@@ -1,0 +1,18 @@
+DONE
+    header
+    footer
+    numbered list on landing page
+    photo section on who we are (which version?)
+    newsletter section on landing page
+    terms / cookies / privacy (missing tablet)
+
+
+TODO
+    newsroom layout
+    publications layout (missing tablet)
+    publications menu
+    services (img or css?)
+    see more button (see more, load more?)
+    glenn page
+    contact page (missing tablet)
+    
