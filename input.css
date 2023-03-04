@@ -37,12 +37,30 @@
         @apply flex flex-col justify-center items-center absolute top-[189px] left-[4px] xl:top-[282px] xl:left-[10px] z-10 w-[232px] h-[47px] xl:w-[340px] xl:h-[68px]
     }
 
+    .glenn-page-quotes {
+        @apply font-unna-700-it text-[17px] text-center w-[70%] m-auto mb-5 mt-10
+    }
+
+    .glenn-page-quotes-author {
+        @apply font-jose-300-it text-[13px] text-center w-[70%] m-auto
+    }
+
+    .glenn-page-headings {
+        @apply font-unna-700-it text-xl mt-10 mb-3
+    }
+
 }
 
 
 .font-jose-200 {
     font-family: 'Josefin Sans';
     font-weight: 200;
+}
+
+.font-jose-300-it {
+    font-family: 'Josefin Sans';
+    font-weight: 300;
+    font-style: italic;
 }
 
 .font-jose-400 {
@@ -59,6 +77,12 @@
 .font-jose-600 {
     font-family: 'Josefin Sans';
     font-weight: 600;
+}
+
+.font-jose-600-it {
+    font-family: 'Josefin Sans';
+    font-weight: 600;
+    font-style: italic;
 }
 
 .font-jose-700 {
