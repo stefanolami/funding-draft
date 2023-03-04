@@ -18,9 +18,6 @@ document.addEventListener('click', (event) => {
     if (!mobileMenuDiv.contains(event.target)) {
         mobileMenuNav.classList.replace('flex', 'hidden');
         console.log('closing');
-        console.log('containbs');
+        console.log('contains');
     }
 })
-console.log('listening event')
-
-
