@@ -686,6 +686,10 @@ video {
   left: 0px;
 }
 
+.left-\[70\%\] {
+  left: 70%;
+}
+
 .right-0 {
   right: 0px;
 }
@@ -700,6 +704,38 @@ video {
 
 .top-\[63\%\] {
   top: 63%;
+}
+
+.left-20 {
+  left: 5rem;
+}
+
+.left-32 {
+  left: 8rem;
+}
+
+.left-48 {
+  left: 12rem;
+}
+
+.left-52 {
+  left: 13rem;
+}
+
+.left-\[100\%\] {
+  left: 100%;
+}
+
+.left-\[90\%\] {
+  left: 90%;
+}
+
+.left-\[95\%\] {
+  left: 95%;
+}
+
+.left-\[98\%\] {
+  left: 98%;
 }
 
 .z-10 {
@@ -730,6 +766,10 @@ video {
 
 .mb-2 {
   margin-bottom: 0.5rem;
+}
+
+.mb-20 {
+  margin-bottom: 5rem;
 }
 
 .mb-3 {
@@ -768,6 +808,10 @@ video {
   margin-top: 0px;
 }
 
+.mt-20 {
+  margin-top: 5rem;
+}
+
 .mt-5 {
   margin-top: 1.25rem;
 }
@@ -778,6 +822,22 @@ video {
 
 .mt-\[77px\] {
   margin-top: 77px;
+}
+
+.mr-28 {
+  margin-right: 7rem;
+}
+
+.mr-\[106px\] {
+  margin-right: 106px;
+}
+
+.mt-2 {
+  margin-top: 0.5rem;
+}
+
+.mt-6 {
+  margin-top: 1.5rem;
 }
 
 .inline-block {
@@ -918,6 +978,10 @@ video {
 
 .w-\[156px\] {
   width: 156px;
+}
+
+.w-\[160px\] {
+  width: 160px;
 }
 
 .w-\[177px\] {
@@ -1160,6 +1224,18 @@ video {
   padding-top: 1rem;
 }
 
+.pt-20 {
+  padding-top: 5rem;
+}
+
+.pt-10 {
+  padding-top: 2.5rem;
+}
+
+.pt-14 {
+  padding-top: 3.5rem;
+}
+
 .text-center {
   text-align: center;
 }
@@ -1333,6 +1409,30 @@ video {
 }
 
 @media (min-width: 768px) {
+  .md\:left-\[50\%\] {
+    left: 50%;
+  }
+
+  .md\:left-\[70\%\] {
+    left: 70%;
+  }
+
+  .md\:left-\[72\%\] {
+    left: 72%;
+  }
+
+  .md\:left-\[74\%\] {
+    left: 74%;
+  }
+
+  .md\:left-\[73\%\] {
+    left: 73%;
+  }
+
+  .md\:m-auto {
+    margin: auto;
+  }
+
   .md\:mb-11 {
     margin-bottom: 2.75rem;
   }
@@ -1343,6 +1443,22 @@ video {
 
   .md\:mt-5 {
     margin-top: 1.25rem;
+  }
+
+  .md\:mb-8 {
+    margin-bottom: 2rem;
+  }
+
+  .md\:mb-6 {
+    margin-bottom: 1.5rem;
+  }
+
+  .md\:mb-10 {
+    margin-bottom: 2.5rem;
+  }
+
+  .md\:mt-10 {
+    margin-top: 2.5rem;
   }
 
   .md\:block {
@@ -1413,6 +1529,42 @@ video {
     width: 70%;
   }
 
+  .md\:w-\[200px\] {
+    width: 200px;
+  }
+
+  .md\:w-\[300px\] {
+    width: 300px;
+  }
+
+  .md\:w-\[250px\] {
+    width: 250px;
+  }
+
+  .md\:w-\[290px\] {
+    width: 290px;
+  }
+
+  .md\:w-\[320px\] {
+    width: 320px;
+  }
+
+  .md\:w-\[330px\] {
+    width: 330px;
+  }
+
+  .md\:w-\[340px\] {
+    width: 340px;
+  }
+
+  .md\:w-\[350px\] {
+    width: 350px;
+  }
+
+  .md\:w-\[360px\] {
+    width: 360px;
+  }
+
   .md\:flex-row {
     flex-direction: row;
   }
@@ -1443,6 +1595,34 @@ video {
 
   .md\:pt-4 {
     padding-top: 1rem;
+  }
+
+  .md\:pr-10 {
+    padding-right: 2.5rem;
+  }
+
+  .md\:pt-20 {
+    padding-top: 5rem;
+  }
+
+  .md\:pt-32 {
+    padding-top: 8rem;
+  }
+
+  .md\:pt-36 {
+    padding-top: 9rem;
+  }
+
+  .md\:pt-28 {
+    padding-top: 7rem;
+  }
+
+  .md\:pr-12 {
+    padding-right: 3rem;
+  }
+
+  .md\:pr-14 {
+    padding-right: 3.5rem;
   }
 
   .md\:text-\[14px\] {
@@ -1493,8 +1673,40 @@ video {
 }
 
 @media (min-width: 1280px) {
+  .xl\:left-\[76\%\] {
+    left: 76%;
+  }
+
+  .xl\:mb-20 {
+    margin-bottom: 5rem;
+  }
+
+  .xl\:ml-\[30\%\] {
+    margin-left: 30%;
+  }
+
+  .xl\:mr-24 {
+    margin-right: 6rem;
+  }
+
+  .xl\:mt-10 {
+    margin-top: 2.5rem;
+  }
+
   .xl\:mt-9 {
     margin-top: 2.25rem;
+  }
+
+  .xl\:mb-32 {
+    margin-bottom: 8rem;
+  }
+
+  .xl\:mb-24 {
+    margin-bottom: 6rem;
+  }
+
+  .xl\:mb-28 {
+    margin-bottom: 7rem;
   }
 
   .xl\:inline {
@@ -1509,12 +1721,32 @@ video {
     display: none;
   }
 
+  .xl\:h-10 {
+    height: 2.5rem;
+  }
+
+  .xl\:h-12 {
+    height: 3rem;
+  }
+
+  .xl\:h-\[231px\] {
+    height: 231px;
+  }
+
   .xl\:h-\[360px\] {
     height: 360px;
   }
 
+  .xl\:w-10 {
+    width: 2.5rem;
+  }
+
   .xl\:w-\[1116px\] {
     width: 1116px;
+  }
+
+  .xl\:w-\[231px\] {
+    width: 231px;
   }
 
   .xl\:w-\[360px\] {
@@ -1525,8 +1757,16 @@ video {
     width: 60%;
   }
 
+  .xl\:w-\[70\%\] {
+    width: 70%;
+  }
+
   .xl\:w-\[862px\] {
     width: 862px;
+  }
+
+  .xl\:w-\[500px\] {
+    width: 500px;
   }
 
   .xl\:justify-center {
@@ -1563,6 +1803,10 @@ video {
 
   .xl\:text-\[21px\] {
     font-size: 21px;
+  }
+
+  .xl\:text-\[23px\] {
+    font-size: 23px;
   }
 
   .xl\:text-\[25px\] {

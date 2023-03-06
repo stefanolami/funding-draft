@@ -5,6 +5,7 @@ DONE
     photo section on who we are (which version?)
     newsletter section on landing page
     terms / cookies / privacy (missing tablet)
+    glenn page
 
 
 TODO
@@ -13,6 +14,5 @@ TODO
     publications menu
     services (img or css?)
     see more button (see more, load more?)
-    glenn page
     contact page (missing tablet)
     
