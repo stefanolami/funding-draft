@@ -6,6 +6,15 @@ input::placeholder {
     color: white;
 }
 
+.newsroom-block-photo {
+    background-image: url('images/newsroom/newsroom-india.png');
+    background-size: cover;
+}
+
+.newsroom-block-photo-layer {
+    background-color: rgba(38, 71, 108, 0.53);
+}
+
 
 /* .mobile-menu-rectangle {
     width: 20px;

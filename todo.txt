@@ -15,4 +15,3 @@ TODO
     services (img or css?)
     see more button (see more, load more?)
     contact page (missing tablet)
-    
