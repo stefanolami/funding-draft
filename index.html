@@ -355,7 +355,8 @@
 
             <!-- MOBILE NEWSROOM --> 
 
-            <div class="mt-4 mb-4">
+            <div class="hidden mt-4 mb-4">
+                <!-- remove hidden -->
                 <h1 class="font-unna-700 text-xl text-center">NEWSROOM</h1>
                 <div class="flex flex-col mx-5 mt-4">
                     <div class="flex justify-center items-center relative h-[200px] my-[6px] bg-primary">   <!-- DEFAULT NEWS BLOCK -->
@@ -393,6 +394,27 @@
 
 
         
+
+            <!-- RESPONSIVE PUBLICATIONS MENU -->
+
+            <div class="hidden mx-5 my-5 flex-row flex-wrap justify-between xl:justify-center">
+                <!-- change hidden to flex -->
+                <style>
+                    @media only screen and (min-width: 1280px) {
+                        .publications-menu-divs {
+                            font-size: 16px;
+                            font-style: italic;
+                            font-family: 'Unna';
+                        }
+                    }
+                </style>
+                <div class="publications-menu-first publications-menu-divs">Funding Programmes</div>
+                <div class="publications-menu-divs">Funding Policies</div>
+                <div class="publications-menu-divs">Predictability in Politics</div>
+                <div class="publications-menu-last publications-menu-divs">Time & Place Newsletters</div>
+            </div>
+
+            <!-- END RESPONSIVE PUBLICATIONS MENU -->
 
         </main>
 
