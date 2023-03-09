@@ -15,4 +15,4 @@ TODO
     tablet / desktop publications layout (missing tablet)
     services (img or css?)
     see more button (see more, load more?)
-    contact page (missing tablet)
+    contact page (missing tablet) (input focus design?)

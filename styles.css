@@ -2,6 +2,10 @@ input::placeholder {
     color: rgba(38, 71, 108, 1);
 }
 
+textarea::placeholder {
+    color: rgba(38, 71, 108, 1);
+}
+
 #body-newsletter-input::placeholder {
     color: white;
 }

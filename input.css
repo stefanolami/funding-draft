@@ -64,6 +64,10 @@
     .publications-menu-last {
         @apply xl:rounded-br-3xl
     }
+
+    .contact-page-input {
+        @apply border-2 border-primary bg-primary/[.06]  font-jose-600-it text-[9px] leading-[9px] pl-[10px] my-1
+    }
 }
 
 
