@@ -9,10 +9,10 @@ DONE
     mobile newsroom layout (missing tablet and desktop)
     publications menu (mobile: % or px?) (missing tablet)
     mobile publications layout
+    contact page (missing tablet) (input focus design?)
 
 
 TODO
     tablet / desktop publications layout (missing tablet)
     services (img or css?)
-    see more button (see more, load more?)
-    contact page (missing tablet) (input focus design?)
+    see more button (see more, load more?) 

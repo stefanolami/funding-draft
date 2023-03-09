@@ -66,7 +66,7 @@
     }
 
     .contact-page-input {
-        @apply border-2 border-primary bg-primary/[.06]  font-jose-600-it text-[9px] leading-[9px] pl-[10px] my-1
+        @apply border-2 border-primary bg-primary/[.06]  font-jose-600-it text-[9px] xl:text-sm leading-[9px] xl:leading-4 pl-[10px] xl:pl-5 my-[14px]
     }
 }
 
