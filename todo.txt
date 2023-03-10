@@ -6,13 +6,28 @@ DONE
     newsletter section on landing page
     terms / cookies / privacy (missing tablet)
     glenn page
-    mobile newsroom layout (missing tablet and desktop)
+    mobile newsroom layout (missing tablet)
     publications menu (mobile: % or px?) (missing tablet)
     mobile publications layout
-    contact page (missing tablet) (input focus design?)
+    contact page
 
 
 TODO
     tablet / desktop publications layout (missing tablet)
     services (img or css?)
-    see more button (see more, load more?) 
+    see more button (see more, load more?)
+    interactive map
+    our services layout
+    articles page
+
+
+
+
+
+DOUBTS
+    photo section who we are which version
+    nesroom/publictions internal or external pages?  % or xp?
+    input focus design
+    services img or css?
+    
+    tablet missing parts: terms/cookies/privacy   newsroom   publications   contact page

@@ -2,8 +2,16 @@ input::placeholder {
     color: rgba(38, 71, 108, 1);
 }
 
+input:focus {
+    outline: none;
+}
+
 textarea::placeholder {
     color: rgba(38, 71, 108, 1);
+}
+
+textarea:focus {
+    outline: none;
 }
 
 #body-newsletter-input::placeholder {
