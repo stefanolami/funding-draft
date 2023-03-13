@@ -1012,6 +1012,10 @@ video {
   margin-top: 77px;
 }
 
+.mt-2 {
+  margin-top: 0.5rem;
+}
+
 .inline-block {
   display: inline-block;
 }
@@ -1533,10 +1537,6 @@ video {
 
 .pb-2 {
   padding-bottom: 0.5rem;
-}
-
-.pb-4 {
-  padding-bottom: 1rem;
 }
 
 .pb-\[164px\] {
@@ -2106,6 +2106,10 @@ video {
     margin-top: 2.5rem;
   }
 
+  .xl\:mt-4 {
+    margin-top: 1rem;
+  }
+
   .xl\:mt-9 {
     margin-top: 2.25rem;
   }
@@ -2224,6 +2228,10 @@ video {
 
   .xl\:pt-7 {
     padding-top: 1.75rem;
+  }
+
+  .xl\:pt-4 {
+    padding-top: 1rem;
   }
 
   .xl\:text-\[15px\] {
