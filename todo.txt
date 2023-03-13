@@ -6,8 +6,8 @@ DONE
     newsletter section on landing page
     terms / cookies / privacy (missing tablet)
     glenn page
-    mobile newsroom layout (missing tablet)
-    publications menu (mobile: % or px?) (missing tablet)
+    newsroom
+    publications menu
     mobile publications layout
     contact page
 

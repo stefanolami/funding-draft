@@ -54,15 +54,15 @@
     }
 
     .publications-menu-divs {
-        @apply border-2 border-primary-dark2 rounded-full xl:rounded-none w-[48%] xl:w-[24%] font-jose-600-it text-primary-dark2 xl:text-white text-[9px] xl:text-base leading-[9px] text-center my-1 xl:mx-[.5px] py-[7px] xl:bg-primary-dark2 
+        @apply border-2 border-primary-dark2 rounded-full md:rounded-none w-[48%] md:w-[24%] font-jose-600-it text-primary-dark2 md:text-white text-[9px] md:text-base leading-[9px] text-center my-1 md:mx-[1.5px] xl:mx-[.5px] py-[7px] md:bg-primary-dark2 
     }
 
     .publications-menu-first {
-        @apply xl:rounded-tl-3xl
+        @apply md:rounded-tl-3xl
     }
 
     .publications-menu-last {
-        @apply xl:rounded-br-3xl
+        @apply md:rounded-br-3xl
     }
 
     .contact-page-input {
