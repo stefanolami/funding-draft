@@ -8,12 +8,12 @@ DONE
     glenn page
     newsroom
     publications menu
-    mobile publications layout
+    publications
     contact page
 
 
 TODO
-    tablet / desktop publications layout (missing tablet)
+    landing page newsroom preview
     services (img or css?)
     see more button (see more, load more?)
     interactive map

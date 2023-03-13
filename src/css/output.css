@@ -920,6 +920,31 @@ video {
   margin-bottom: 6px;
 }
 
+.my-2 {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.my-7 {
+  margin-top: 1.75rem;
+  margin-bottom: 1.75rem;
+}
+
+.my-8 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.my-9 {
+  margin-top: 2.25rem;
+  margin-bottom: 2.25rem;
+}
+
+.my-20 {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
 .mb-10 {
   margin-bottom: 2.5rem;
 }
@@ -996,6 +1021,10 @@ video {
   margin-top: 3.5rem;
 }
 
+.mt-2 {
+  margin-top: 0.5rem;
+}
+
 .mt-4 {
   margin-top: 1rem;
 }
@@ -1012,8 +1041,12 @@ video {
   margin-top: 77px;
 }
 
-.mt-2 {
-  margin-top: 0.5rem;
+.mt-20 {
+  margin-top: 5rem;
+}
+
+.mt-16 {
+  margin-top: 4rem;
 }
 
 .inline-block {
@@ -1306,6 +1339,10 @@ video {
 
 .w-full {
   width: 100%;
+}
+
+.w-4\/5 {
+  width: 80%;
 }
 
 .max-w-6xl {
@@ -1882,6 +1919,16 @@ video {
     margin-bottom: 2.5rem;
   }
 
+  .md\:my-7 {
+    margin-top: 1.75rem;
+    margin-bottom: 1.75rem;
+  }
+
+  .md\:my-12 {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+
   .md\:mb-10 {
     margin-bottom: 2.5rem;
   }
@@ -1896,6 +1943,10 @@ video {
 
   .md\:mt-5 {
     margin-top: 1.25rem;
+  }
+
+  .md\:mt-20 {
+    margin-top: 5rem;
   }
 
   .md\:block {
@@ -1976,6 +2027,14 @@ video {
 
   .md\:w-\[70\%\] {
     width: 70%;
+  }
+
+  .md\:w-3\/5 {
+    width: 60%;
+  }
+
+  .md\:w-\[65\%\] {
+    width: 65%;
   }
 
   .md\:auto-cols-fr {
@@ -2068,6 +2127,10 @@ video {
     line-height: 1.75rem;
   }
 
+  .md\:text-\[21px\] {
+    font-size: 21px;
+  }
+
   .md\:leading-7 {
     line-height: 1.75rem;
   }
@@ -2098,6 +2161,16 @@ video {
     margin-right: 11rem;
   }
 
+  .xl\:my-20 {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+  }
+
+  .xl\:my-16 {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+  }
+
   .xl\:mb-32 {
     margin-bottom: 8rem;
   }
@@ -2112,6 +2185,10 @@ video {
 
   .xl\:mt-9 {
     margin-top: 2.25rem;
+  }
+
+  .xl\:mt-28 {
+    margin-top: 7rem;
   }
 
   .xl\:inline {
@@ -2198,6 +2275,10 @@ video {
     width: 862px;
   }
 
+  .xl\:w-\[55\%\] {
+    width: 55%;
+  }
+
   .xl\:justify-center {
     justify-content: center;
   }
@@ -2230,10 +2311,6 @@ video {
     padding-top: 1.75rem;
   }
 
-  .xl\:pt-4 {
-    padding-top: 1rem;
-  }
-
   .xl\:text-\[15px\] {
     font-size: 15px;
   }
@@ -2262,6 +2339,19 @@ video {
   .xl\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
+  }
+
+  .xl\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .xl\:text-\[33px\] {
+    font-size: 33px;
+  }
+
+  .xl\:leading-10 {
+    line-height: 2.5rem;
   }
 }
 

@@ -17,24 +17,28 @@
 
 
             
-            <!-- TABLET / DESKTOP HEADER -->
+            <!-- HEADER WITH PICTURE -->
 
-            <div class="hidden md:flex justify-between items-center select-none md:bg-transparent pt-2 pb-2 md:pt-4 md:pb-4 xl:pt-7 xl:pb-7">
-                <object class="w-[177px] xl:hidden h-[55px] ml-7" data="../../images/icons/T&Pfunding-logo.svg" ></object>
-                <object class="hidden w-[145px] xl:inline h-[98px] ml-[4%]" data="../../images/icons/T&Pfunding-logo-desktop.svg" ></object>
-        
-                <nav id="header-nav" class="hidden md:flex flex-row justify-around xl:justify-center items-center w-[70%] h-full font-jose-400-it text-base text-center pr-4">    
-                    <a class="desktop-header-nav-items" href="#">Newsroom</a>
-                    <a class="desktop-header-nav-items" href="#">Services</a>
-                    <a class="desktop-header-nav-items" href="#">Publications</a>
-                    <a class="desktop-header-nav-items" href="#">Why Us</a>
-                    <a class="desktop-header-nav-items" href="#">Who We Are</a>
-                    <a class="desktop-header-nav-items xl:border-r-0" href="#">Contact</a>
-                </nav>
-            </div>
-            
+            <div id="header-with-hands" class="relative hidden md:flex flex-col justify-between ">
+                <img class="z-[-10] w-full" src="../../images/landing page/header-1.png" alt="Header Image">
+                <div class="absolute w-full flex justify-between select-none bg-transparent mt-2 xl:mt-4">
+                    <img class="xl:hidden ml-7" src="../../images/icons/T&P-Logo-Funding-long-text-white.svg" >                   
+                    <img class="hidden w-[145px] xl:inline h-[98px] ml-[4%]" src="../../images/icons/T&Pfunding-logo-desktop-white.svg" >
+                    <nav id="header-nav" class="hidden md:flex flex-row justify-around xl:justify-center items-center w-[70%] h-full font-jose-400-it text-base text-center text-white my-6">    
+                        <a class="desktop-header-nav-items border-white" href="#">Newsroom</a>
+                        <a class="desktop-header-nav-items border-white" href="#">Services</a>
+                        <a class="desktop-header-nav-items border-white" href="#">Publications</a>
+                        <a class="desktop-header-nav-items border-white" href="#">Why Us</a>
+                        <a class="desktop-header-nav-items border-white" href="#">Who We Are</a>
+                        <a class="desktop-header-nav-items xl:border-r-0" href="#">Contact</a>
+                    </nav>
+                </div>
+                <div>
+                    <h1 class="absolute bottom-0 w-full font-unna-700 text-[39px] xl:text-[50px] text-white leading-10 text-center p-2 xl:p-6">TIME&PLACE FUNDING</h1>
+                </div>
+            </div> 
 
-            <!-- END TABLET / DESKTOP HEADER -->
+            <!-- END HEADER WITH PICTURE -->
 
 
 
@@ -76,11 +80,13 @@
 
         <main class="pb-[164px] md:pb-[426px] xl:pb-[303px]">
 
-
+            <h1 class="md:hidden text-center font-unna-700 text-xl my-2">TIME&PLACE FUNDING</h1>
+            <p class="text-center font-jose-400-it text-sm md:text-[21px] xl:text-2xl my-5 md:my-7">Our presence, your opportunities</p>
+            <p class="w-4/5 md:w-[70%] m-auto my-10 xl:my-20 font-unna-700 text-center text-xl md:text-[27px] xl:text-[33px] leading-6 md:leading-8 xl:leading-10">As big business, SME, entrepreneur, academic institution, NGO, government, local or regional body you can benefit from International, EU, national, regional and local funding schemes</p>
 
             <!-- RESPONSIVE LANDING PAGE OL -->
 
-            <div class="hidden w-[90%] sm:w-[80%] md:w-[70%] xl:w-[60%] 2xl:w-[50%] m-auto">
+            <div class="w-[90%] sm:w-[80%] md:w-[70%] xl:w-[55%] 2xl:w-[50%] m-auto">
                 <!-- remove hidden -->
                 <style>
                     ol {
@@ -144,12 +150,14 @@
             <!-- END RESPONSIVE LANDING PAGE OL -->
 
 
+            <p class="md:hidden text-center text-primary text-xl font-unna-700 my-8">Check out our international presence!</p>
+            <h1 class="font-unna-700 text-xl md:text-[39px] xl:text-[50px] text-center mt-16 md:mt-20 xl:mt-28">NEWSROOM</h1>
+            <p class="font-jose-400-it text-sm md:text-[21px] xl:text-2xl text-center my-9 md:my-12 xl:my-16">What's trending:</p>
 
             <!-- MOBILE NEWSROOM --> 
 
-            <div class="hidden mt-4 mb-4">
+            <div class=" md:hidden mt-4 mb-4">
                 <!-- remove hidden -->
-                <h1 class="font-unna-700 text-xl text-center">NEWSROOM</h1>
                 <div class="flex flex-col mx-5 mt-4">
                     <div class="flex justify-center items-center relative h-[200px] my-[6px] bg-primary">   <!-- DEFAULT NEWS BLOCK -->
                         <div class="absolute top-0 left-0 flex items-center rounded-br-3xl h-[15%] p-3 pr-5 bg-white font-unna-700-it text-base text-primary-dark2">T&P Insights</div>
@@ -160,14 +168,15 @@
                         <h3 class="p-6 font-unna-700 text-[21px] text-white leading-6">What is the EU Global Gateway initiative?</h3>
                         <div class="absolute bottom-2 right-2 flex px-3 py-2 border-2 border-white rounded-full font-jose-600 text-white text-[10px]">READ MORE</div>
                     </div>
-                    <div class="newsroom-block-photo flex justify-center items-center relative h-[200px] my-[6px] ">   <!-- BACKGROUND PICTURE NEWS BLOCK -->
+                    <div class=" flex justify-center items-center relative h-[200px] my-[6px] ">   <!-- BACKGROUND PICTURE NEWS BLOCK -->
+                        <img class="object-cover h-full w-full" src="../../images/newsroom/newsroom-india.png" alt="">
                         <div class="newsroom-block-photo-layer absolute top-0 bottom-0 right-0 left-0"></div>
                         <div class="absolute top-0 left-0 flex items-center rounded-br-3xl h-[15%] p-3 pr-5 bg-white font-unna-700-it text-base text-primary-dark2">T&P Insights</div>
                         <div class="absolute top-0 right-0 p-2 leading-4">
                             <p class="font-unna-700 text-[13.5px] text-white text-right">Sebastian Lenders</p>
                             <p class="font-jose-300 text-[13px] text-white text-right">March 18, 2022</p>
                         </div>
-                        <h3 class="p-6 font-unna-700 text-[21px] z-10 text-white leading-6">EU-India Trade Relations: Now and an even brighter future</h3>
+                        <h3 class="absolute p-6 font-unna-700 text-[21px] z-10 text-white leading-6">EU-India Trade Relations: Now and an even brighter future</h3>
                         <div class="absolute bottom-2 right-2 flex px-3 py-2 border-2 border-white rounded-full font-jose-600 text-white text-[10px]">READ MORE</div>
                     </div>
                     <div class="flex justify-center items-center relative h-[200px] my-[6px] border border-primary text-primary-dark2">   <!-- WHITE NEWS BLOCK -->
