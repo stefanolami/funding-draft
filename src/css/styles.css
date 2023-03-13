@@ -18,8 +18,12 @@ textarea:focus {
     color: white;
 }
 
+/* #header-with-hands {
+    background-image: url('../../images/landing page/header-1.png');
+} */
+
 .newsroom-block-photo {
-    background-image: url('images/newsroom/newsroom-india.png');
+    background-image: url('../../images/newsroom/newsroom-india.png');
     background-size: cover;
 }
 
