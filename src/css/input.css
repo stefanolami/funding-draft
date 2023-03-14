@@ -54,7 +54,7 @@
     }
 
     .publications-menu-divs {
-        @apply border-2 border-primary-dark2 rounded-full md:rounded-none w-[48%] md:w-[24%] font-jose-600-it text-primary-dark2 md:text-white text-[9px] md:text-base leading-[9px] text-center my-1 md:mx-[1.5px] xl:mx-[.5px] py-[7px] md:bg-primary-dark2 
+        @apply border-2 border-primary-dark2 rounded-full md:rounded-none w-[48%] md:w-[24%] font-jose-600-it text-primary-dark2 md:text-white text-[9px] md:text-base leading-[9px] text-center my-1 md:mx-[1.5px] xl:mx-[1px] py-[7px] md:bg-primary-dark2  cursor-pointer
     }
 
     .publications-menu-first {

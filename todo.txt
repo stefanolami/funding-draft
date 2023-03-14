@@ -1,6 +1,7 @@
 DONE FULL PAGES
     home
     newsroom
+    contact
 
 
 DONE SECTIONS

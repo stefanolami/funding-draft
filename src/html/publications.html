@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,200;0,300;0,400;0,600;1,200;1,300;1,400;1,600&family=Nunito&family=Unna:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link href="../css/output.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../css/styles.css" />
+    <title>T&P Funding</title>
+</head>
+<body>
+    <div id="page-wrapper" class="relative min-h-screen">
+        <header>
+
+
+            
+            <!-- TABLET / DESKTOP HEADER -->
+
+            <div class="hidden md:flex justify-between items-center select-none md:bg-transparent pb-2 md:pt-2 md:pb-4 xl:pt-3 xl:pb-7">
+                <!-- add md:flex -->
+                <a class="xl:hidden ml-7" href="./home.html">
+                    <img class="w-[170px] xl:hidden" src="../../images/icons/T&Pfunding-logo.svg" alt="T&P Funding logo">
+                </a>
+                <a class="hidden xl:block ml-[4%]" href="./home.html">
+                    <img class="w-[145px]" src="../../images/icons/T&Pfunding-logo-desktop.svg" alt="">             
+                </a>
+                <nav id="header-nav" class="hidden md:flex flex-row justify-around xl:justify-center items-center w-[70%] h-full font-jose-400-it text-base text-center">    
+                    <a class="desktop-header-nav-items" href="./newsroom.html">Newsroom</a>
+                    <a class="desktop-header-nav-items" href="./services.html">Services</a>
+                    <a class="desktop-header-nav-items" href="./publications.html">Publications</a>
+                    <a class="desktop-header-nav-items" href="./why-us.html">Why Us</a>
+                    <a class="desktop-header-nav-items" href="./who-we-are.html">Who We Are</a>
+                    <a class="desktop-header-nav-items xl:border-r-0" href="./contact.html">Contact</a>
+                </nav>
+            </div>
+            
+
+            <!-- END TABLET / DESKTOP HEADER -->
+
+
+
+            <!-- MOBILE HEADER -->
+            
+            <div class="flex md:hidden justify-between items-center select-none md:bg-transparent pt-2 pb-2 md:pt-4 md:pb-4 xl:pt-7 xl:pb-7">
+                <!-- <object class="w-[138px] h-[43px] ml-4" data="../../images/icons/T&Pfunding-logo.svg" ></object> -->
+                <a href="./home.html">
+                    <img class="w-[138px] h-[43px] ml-4" src="../../images/icons/T&Pfunding-logo.svg" alt="">
+                </a>                
+                <div id="mobile-menu-div" class="md:hidden relative mr-3">
+                    <div id="mobile-menu" class="select-none md:hidden">
+                        <object data="../../images/icons/mobile-menu-circle.svg" width="48" height="35"></object>
+                        <div class="absolute top-0 flex flex-col w-full h-[35px] justify-center items-center">
+                            <div class="mobile-menu-rectangle"></div>
+                            <div class="mobile-menu-rectangle"></div>
+                            <div class="mobile-menu-rectangle"></div>
+                        </div>
+                    </div>
+                    <nav id="mobile-menu-nav" class="hidden absolute z-20 w-[148px] md:w-[500px] h-[352px] md:h-full top-[-4px] right-0 flex-col justify-between border-primary border-[3px] rounded-lg rounded-tr-none md:border-none bg-white md:bg-transparent">    
+                        <div id="mobile-menu-close" class="ml-[85%] mt-0 font-nunito-400  text-primary text-lg md:hidden">x</div>
+                        <ul class="flex flex-col md:flex-row justify-evenly h-[90%] ml-6 mb-3 font-jose-400-it text-primary-dark text-base">
+                            <li><a href="./newsroom.html">Newsroom</a></li>
+                            <li><a href="./services.html">Services</a></li>
+                            <li><a href="./publications.html">Publications</a></li>
+                            <li><a href="./why-us.html">Why Us</a></li>
+                            <li><a href="./who-we-are.html">Who We Are</a></li>
+                            <li><a href="./contact.html">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            
+    
+            <!-- END MOBILE HEADER -->
+    
+        </header>
+
+
+
+
+
+        <main class="pb-[164px] md:pb-[426px] xl:pb-[303px]">
+        
+
+            <!-- RESPONSIVE PUBLICATIONS MENU -->
+            <div class="max-w-7xl mx-auto mt-6 md:mt-16 xl:mt-28">
+                <!-- remove hidden -->
+                <h1 class="font-unna-700 text-[20px] md:text-[39px] md:mb-12 xl:mb-20 text-center">PUBLICATIONS</h1>
+                <div class="flex mx-5 my-5 flex-row flex-wrap justify-between md:justify-center md:mx-auto">                  
+                    <style>
+                        @media only screen and (min-width: 1280px) {
+                            .publications-menu-divs {
+                                font-size: 16px;
+                                font-style: italic;
+                                font-family: 'Unna';
+                            }
+                        }
+                    </style>
+                    <div class="publications-menu-first publications-menu-divs">Funding Programmes</div>
+                    <div class="publications-menu-divs">Funding Policies</div>
+                    <div class="publications-menu-divs">Predictability in Politics</div>
+                    <div class="publications-menu-last publications-menu-divs">Time & Place Newsletters</div>
+                </div>
+            </div>
+
+            
+
+            <!-- END RESPONSIVE PUBLICATIONS MENU -->
+
+
+
+            <!-- MOBILE / TABLET PUBLICATIONS -->
+            <div class="">
+                <!-- add hidden -->
+                <div class="flex md:grid xl:hidden flex-col md:grid-cols-2 md:auto-cols-fr md:gap-4 mx-5 md:mx-10 lg:mx-20 my-4 md:my-10">
+                    <div class="grid grid-rows-[1fr_2fr] relative my-[6px] h-[300px] md:h-[315px] md:my-0 border border-primary text-primary-dark2">   <!-- PHOTO PUBLICATIONS BLOCK -->
+                        <div class="absolute top-[-1px] left-[-1px] z-10 flex items-center rounded-br-3xl pl-2 pr-5 py-1 bg-white font-unna-700-it text-base text-primary-dark2">Funding Programmes</div>
+                        <div class="h-[104px] w-full">
+                            <img class="object-cover w-full h-full" src="../../images/publications/publications-agriculture-mobile.png" class="w-full" alt="Publication Image Preview">
+                        </div>
+                        <div class="relative flex flex-col justify-center p-6 h-full">
+                            <div class="absolute top-0 right-0 p-2 leading-4">
+                                <p class="font-unna-700 text-[13.5px] text-right">Alessandro Calissi</p>
+                                <p class="font-jose-300 text-[13px] text-right">April 20, 2020</p>
+                            </div>
+                            <h3 class=" font-unna-700 text-[18px] text-black leading-6 ">The EU circular challenge(s)</h3>
+                            <p class="my-3 font-jose-400 text-black text-[12px] leading-[15px] ">The Corona pandemic is affecting every and each field of policy-making, including the EU Green Deal and the circular economy agenda.</p>
+                            <div class="absolute bottom-2 right-2 flex px-3 py-2 border-2 border-primary rounded-full font-jose-600 text-[10px]">READ MORE</div>
+                        </div>
+                    </div>
+                    <div class="flex flex-col relative my-[6px] h-[240px] md:h-[315px] md:my-0 border border-primary text-primary-dark2">   <!-- WHITE PUBLICATIONS BLOCK -->
+                        <div class="absolute top-[-1px] left-[-1px] z-10 flex items-center rounded-br-3xl pl-2 pr-5 py-1 bg-white font-unna-700-it text-base text-primary-dark2">Funding Programmes</div>
+                        <div class="relative flex flex-col justify-center p-6 h-full">
+                            <div class="absolute top-0 right-0 p-2 leading-4">
+                                <p class="font-unna-700 text-[13.5px] text-right">Alessandro Calissi</p>
+                                <p class="font-jose-300 text-[13px] text-right">April 20, 2020</p>
+                            </div>
+                            <h3 class=" font-unna-700 text-[18px] text-black leading-6 mt-14">Is a Just Transition possible throughout (post-)Corona recovery?</h3>
+                            <p class="my-3 font-jose-400 text-black text-[12px] leading-[15px] mb-14">Corona is driving the political agenda in Brussels and the Commission has pledged to put the EU Green Deal at the centre of the recovery plan currently under preparation.</p>
+                            <div class="absolute bottom-2 right-2 flex px-3 py-2 border-2 border-primary rounded-full font-jose-600 text-[10px]">READ MORE</div>
+                        </div>
+                    </div>
+                    <div class="publications-blu-div flex flex-col relative my-[6px] h-[240px] md:h-[315px] md:my-0 border border-primary text-primary-dark2">   <!-- BLU PUBLICATIONS BLOCK -->
+                        <div class="absolute top-[-1px] left-[-1px] z-10 flex items-center rounded-br-3xl pl-2 pr-5 py-1 bg-white font-unna-700-it text-base text-primary-dark2">Funding Policies</div>
+                        <div class="relative flex flex-col justify-center p-6 h-full">
+                            <div class="absolute top-0 right-0 p-2 leading-4">
+                                <p class="font-unna-700 text-[13.5px] text-right">Joachim Marnitz</p>
+                                <p class="font-jose-300 text-[13px] text-right">March 7, 2020</p>
+                            </div>
+                            <h3 class=" font-unna-700 text-[18px] text-white leading-6">Part III - The poor response of Western institutions</h3>
+                            <p class="my-3 font-jose-400 text-white text-[12px] leading-[15px]">Joachim Marnitz talks about why he believes the German healthcare system is about to break down and why many institutions in the West are responding so poorly. </p>
+                            <div class="absolute bottom-2 right-2 flex px-3 py-2 border-2 border-primary rounded-full font-jose-600 text-[10px]">READ MORE</div>
+                        </div>
+                    </div>
+                    <div class="grid grid-rows-[1fr_2fr] relative my-[6px] h-[300px] md:h-[315px] md:my-0 border border-primary text-primary-dark2">   <!-- PHOTO PUBLICATIONS BLOCK -->
+                        <div class="absolute top-[-1px] left-[-1px] z-10 flex items-center rounded-br-3xl pl-2 pr-5 py-1 bg-white font-unna-700-it text-base text-primary-dark2">Predicability in Politics</div>
+                        <div class="h-[104px] w-full">
+                            <img class="object-cover w-full h-full" src="../../images/publications/publications-germany-desktop.png" class="w-full" alt="Publication Image Preview">
+                        </div>
+                        <div class="relative flex flex-col justify-center p-6 h-full">
+                            <div class="absolute top-0 right-0 p-2 leading-4">
+                                <p class="font-unna-700 text-[13.5px] text-right">Alessandro Calissi</p>
+                                <p class="font-jose-300 text-[13px] text-right">April 20, 2020</p>
+                            </div>
+                            <h3 class=" font-unna-700 text-[18px] text-black leading-6">Part II - Impeachment and what statistics still (don't) tell us</h3>
+                            <p class="my-3 font-jose-400 text-black text-[12px] leading-[15px]">Trump’s impeachment saga has lasted for a few months now, and at this point it seems very clear to us that it will have no negative consequences</p>
+                            <div class="absolute bottom-2 right-2 flex px-3 py-2 border-2 border-primary rounded-full font-jose-600 text-[10px]">READ MORE</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex xl:hidden justify-center w-36 md:w-44 m-auto mt-12 mb-28 px-3 py-2 border-2 border-primary-dark2 rounded-full font-jose-600-it text-primary-dark2 text-xs md:text-sm xl:text-base cursor-pointer">SEE MORE</div>        
+            </div>
+           
+
+            <!-- END MOBILE / TABLET PUBLICATIONS -->
+
+
+
+
+            <!-- DESKTOP PUBLICATIONS -->
+            <div class="hidden xl:block">
+                <!-- add xl:block -->
+                <div class="grid gap-6 mx-44 my-20 max-w-6xl min-[1500px]:mx-auto">
+                    <div class="grid grid-cols-[38%_1fr] gap-6">
+                        <div class="grid grid-rows-2 relative h-[460px] border border-primary text-primary-dark2">
+                            <div class="absolute top-[-1px] left-[-1px] z-10 flex items-center rounded-br-3xl pl-2 pr-5 py-1 bg-white font-unna-700-it text-xl text-primary-dark2">Funding Programmes</div>
+                            <div class="ì w-full">
+                                <img class="object-cover w-full h-full" src="../../images/publications/publications-agriculture-desktop.png" class="w-full" alt="Publication Image Preview">
+                            </div>
+                            <div class="relative flex flex-col justify-start p-6 h-full">
+                                <div class="absolute bottom-0 left-0 p-4 leading-4">
+                                    <p class="font-unna-700 text-[13.5px] text-left">Alessandro Calissi</p>
+                                    <p class="font-jose-300 text-[13px] text-left">April 20, 2020</p>
+                                </div>
+                                <h3 class=" font-unna-700 text-[26px] text-black leading-7 ">The EU circular challenge(s)</h3>
+                                <p class="my-3 font-jose-400 text-black text-base leading-4">The Corona pandemic is affecting every and each field of policy-making, including the EU Green Deal and the circular economy agenda. T&P’s Alessandro had a look at where the EU stands in its circular endeavour and what to expect from EU policy-making.</p>
+                                <div class="absolute bottom-3 right-3 flex px-3 py-2 border-2 border-primary rounded-full font-jose-600 text-[12px]">READ MORE</div>
+                            </div>
+                        </div>
+                        <div class="grid grid-cols-2 relative h-[460px] border border-primary text-primary-dark2">
+                            <div class="absolute top-[-1px] left-[-1px] z-10 flex items-center rounded-br-3xl pl-2 pr-5 py-1 bg-white font-unna-700-it text-xl text-primary-dark2">Funding Programmes</div>
+                            <div class="w-full">
+                                <img class="object-cover w-full h-full" src="../../images/publications/corona-desktop.png" class="w-full" alt="Publication Image Preview">
+                            </div>
+                            <div class="relative flex flex-col justify-start p-6 h-full">
+                                <div class="absolute bottom-0 left-0 p-4 leading-4">
+                                    <p class="font-unna-700 text-[13.5px] text-left">Alessandro Calissi</p>
+                                    <p class="font-jose-300 text-[13px] text-left">April 20, 2020</p>
+                                </div>
+                                <h3 class=" font-unna-700 text-[26px] text-black leading-7 ">Is a Just Transition possible throughout (post-)Corona recovery?</h3>
+                                <p class="my-3 font-jose-400 text-black text-base leading-4">Corona is driving the political agenda in Brussels and the Commission has pledged to put the EU Green Deal at the centre of the recovery plan currently under preparation. With a new EU long-term budget also in the making, is there a new opportunity to re-launch the Just Transition objective?</p>
+                                <div class="absolute bottom-2 right-2 flex px-3 py-2 border-2 border-primary rounded-full font-jose-600 text-[12px]">READ MORE</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="grid grid-cols-[60%_1fr] relative h-[344px] border border-primary text-primary-dark2">
+                            <div class="absolute top-[-1px] left-[-1px] z-10 flex items-center rounded-br-3xl pl-2 pr-5 py-1 bg-white font-unna-700-it text-xl text-primary-dark2">The Covid of Things</div>
+                            <div class="h-full">
+                                <img class="object-cover h-full" src="../../images/publications/publications-china-desktop.png" class="w-full" alt="Publication Image Preview">
+                            </div>
+                            <div class="relative flex flex-col justify-start p-6 h-full">
+                                <div class="absolute bottom-0 left-0 p-4 leading-4">
+                                    <p class="font-unna-700 text-[13.5px] text-left">Alessandro Calissi</p>
+                                    <p class="font-jose-300 text-[13px] text-left">March 7, 2020</p>
+                                </div>
+                                <h3 class=" font-unna-700 text-[26px] text-black leading-7 ">Part III - The poor response of Western institutions</h3>
+                                <p class="my-3 font-jose-400 text-black text-base leading-4">In the third COVID-Files entry Joachim Marnitz goes solo and talks about why he believes the German healthcare system is about to break down and why many institutions in the West are responding so poorly. An interesting benchmarking exercise looking at the efficiency of Seoul and Italy. And, some suggestions about what you can do. Please note that he has not gone solo because we have abandoned him due to his self-quarantine. We are constantly “in touch” and wish him all the best.  </p>
+                                <div class="absolute bottom-2 right-2 flex px-3 py-2 border-2 border-primary rounded-full font-jose-600 text-[12px]">READ MORE</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid grid-cols-2 gap-6">
+                        <div class="grid grid-rows-2 relative h-[460px] border border-primary text-primary-dark2">
+                            <div class="absolute top-[-1px] left-[-1px] z-10 flex items-center rounded-br-3xl pl-2 pr-5 py-1 bg-white font-unna-700-it text-xl text-primary-dark2">Predicability in Politics</div>
+                            <div class="ì w-full">
+                                <img class="object-cover w-full h-full" src="../../images/publications/publications-germany-desktop.png" class="w-full" alt="Publication Image Preview">
+                            </div>
+                            <div class="relative flex flex-col justify-start p-6 h-full">
+                                <div class="absolute bottom-0 left-0 p-4 leading-4">
+                                    <p class="font-unna-700 text-[13.5px] text-left">Alessandro Calissi</p>
+                                    <p class="font-jose-300 text-[13px] text-left">April 20, 2020</p>
+                                </div>
+                                <h3 class=" font-unna-700 text-[26px] text-black leading-7 ">Part II - Impeachment and what statistics still (don't) tell us</h3>
+                                <p class="my-3 font-jose-400 text-black text-base leading-4">Trump’s impeachment saga has lasted for a few months now, and at this point it seems very clear to us that it will have no negative consequences for his re-election chances - in fact it is very possible that the whole process ends up helping him.</p>
+                                <div class="absolute bottom-3 right-3 flex px-3 py-2 border-2 border-primary rounded-full font-jose-600 text-[12px]">READ MORE</div>
+                            </div>
+                        </div>
+                        <div class="grid grid-rows-2 relative h-[460px] border border-primary text-primary-dark2">
+                            <div class="absolute top-[-1px] left-[-1px] z-10 flex items-center rounded-br-3xl pl-2 pr-5 py-1 bg-white font-unna-700-it text-xl text-primary-dark2">Funding Programmes</div>
+                            <div class="ì w-full">
+                                <img class="object-cover w-full h-full" src="../../images/publications/publications-commission-desktop.png" class="w-full" alt="Publication Image Preview">
+                            </div>
+                            <div class="relative flex flex-col justify-start p-6 h-full">
+                                <div class="absolute bottom-0 left-0 p-4 leading-4">
+                                    <p class="font-unna-700 text-[13.5px] text-left">Alessandro Calissi</p>
+                                    <p class="font-jose-300 text-[13px] text-left">April 20, 2020</p>
+                                </div>
+                                <h3 class=" font-unna-700 text-[26px] text-black leading-7 ">The first 100 days of the “von der Leyen Commission</h3>
+                                <p class="my-3 font-jose-400 text-black text-base leading-4">Back in the summer of 2019, the soon-to-become EU Commission president Ursula von der Leyen pledged to deliver on a wide range of political initiatives within the first 100 days of her mandate. Have such promises been fulfilled?</p>
+                                <div class="absolute bottom-3 right-3 flex px-3 py-2 border-2 border-primary rounded-full font-jose-600 text-[12px]">READ MORE</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex justify-center w-44 m-auto mb-28 px-3 py-2 border-2 border-primary-dark2 rounded-full font-jose-600-it text-primary-dark2 text-base cursor-pointer">SEE MORE</div>     
+            </div>
+            
+                
+
+            <!-- END DESKTOP PUBLICATIONS -->
+
+
+
+        </main>
+
+
+
+        <footer>
+            <!-- footer needs body with position relative and min-height 100vh (relative min-h-screen)
+            and main with padding-bottom equal to footer height (pb-[164px]) -->
+    
+
+            <!-- MOBILE FOOTER -->
+            <div class="absolute bottom-0 left-0 flex md:hidden flex-col justify-around items-center w-full h-[164px] bg-primary text-white">
+                <div class="flex flex-row items-center justify-evenly pt-4" id="mobile-footer-btns">
+                    <a class="mobile-footer-btns font-unna-700-it" href="#">Newsletter</a>
+                    <a class="mobile-footer-btns font-unna-700-it" href="./contact.html">Contact</a>
+                </div>
+    
+                <div class="font-jose-400 text-[11px] text-center leading-3">
+                    <p>©2023 Time&Place Funding. <br/>A pillar of Time&Place Consulting. <br/>All rights reserved</p>
+                </div>
+    
+                <ul class="w-full px-9 flex flex-row justify-around font-jose-700 text-[11px]">
+                    <li><a href="./terms-conditions.html">Terms & Conditions</a></li>
+                    <li>-</li>
+                    <li><a href="./cookie-use.html">Cookie Use</a></li>
+                    <li>-</li>
+                    <li><a href="./privacy-policy.html">Privacy Policy</a></li>
+                </ul>
+            </div>
+            
+
+            <!-- END MOBILE FOOTER -->
+
+            
+
+
+            <!-- TABLET FOOTER -->
+            <div  class="absolute bottom-0 left-0 hidden md:flex xl:hidden flex-col justify-evenly items-center w-full h-[426px] bg-primary text-white">
+                <div class="flex flex-row justify-around w-full h-[50%]">
+                    <div class="flex flex-col justify-center items-center" id="newsletter-desktop-tablet">
+                        <h3 class="font-unna-400-it text-[28px]">Subscribe to our Newsletter!</h3>
+                        <form class="flex flex-row justify-between items-center h-10 w-[416px] my-3" action="" method="">
+                            <input class="mt-o bg-white/[.62] font-jose-400-it text-base h-full w-[281px] rounded-l-full pl-8" type="email" name="email" placeholder="email@gmail.com">
+                            <input class="font-unna-700-it bg-white text-primary-dark2 text-[19px] h-full w-[130px] rounded-r-full" type="submit" value="SIGN ME UP!">
+                        </form>
+                        <p class="font-jose-400-it text-center text-sm">Stay up to date with our monthly newsletter <br/>on our publications, announcements and projects. <br/>Read our EU GDPR compliant policy.</p>
+                    </div>
+                    <div class="w-[201px] h-10  mt-[77px]">
+                        <a class="inline-block w-full h-full border-[1px] border-white rounded-full font-unna-700-it text-center text-[26px]" href="./contact.html">Contact</a>
+                    </div>
+                </div>
+                <div id="tablet-footer-nav" class="flex flex-col justify-around w-[88%] h-[120px] px-2 py-1 border-y font-jose-400-it text-xl">
+                    <nav class="flex flex-row justify-around items-center ">
+                        <a href="./newsroom.html">Newsroom</a>
+                        <a href="./services.html">Services</a>
+                        <a href="./publications.html">Publications</a>
+                        <a href="./why-us.html">Why Us</a>
+                        <a href="./who-we-are.html">Who We Are</a>
+                    </nav>
+                    <nav class="flex flex-row justify-around items-center ">
+                        <a href="./terms-conditions.html">Terms & Conditions</a>
+                        <a href="./cookie-use.html">Cookie Use</a>
+                        <a href="./privacy-policy.html">Privacy Policy</a>
+                    </nav>
+                </div>
+                <div class="font-jose-200 text-xl text-center">
+                    <p>©2023 Time&Place Funding. All rights reserved. <br/>Time&Place Funding is a pillar of Time&Place Consulting.</p>
+                </div>
+            </div>
+                
+            
+
+            <!-- END TABLET FOOTER -->
+
+
+
+            <!-- DESKTOP FOOTER -->
+            <div class="absolute bottom-0 left-0 hidden xl:flex flex-row justify-evenly items-center w-full h-[303px] bg-primary text-white">
+                <div class="grid grid-cols-3 w-[55%]">
+                    <nav class="desktop-footer-navs">
+                        <div class="desktop-footer-headings">Overview</div>
+                        <a class="desktop-footer-items" href="./newsroom.html">Newsroom</a>
+                        <a class="desktop-footer-items" href="./services.html">Services</a>
+                        <a class="desktop-footer-items" href="./publications.html">Publications</a>
+                        <a class="desktop-footer-items" href="./why-us.html">Why Us</a>
+                        <a class="desktop-footer-items" href="./who-we-are.html">Who We Are</a>
+                    </nav>
+                    <nav class="desktop-footer-navs">
+                        <div class="desktop-footer-headings">Privacy</div>
+                        <a class="desktop-footer-items" href="./terms-conditions.html">Terms & Conditions</a>
+                        <a class="desktop-footer-items" href="./cookie-use.html">Cookie Use</a>
+                        <a class="desktop-footer-items" href="./privacy-policy.html">Privacy Policy</a>
+                    </nav>
+                    <ul class="desktop-footer-navs">
+                        <li class="desktop-footer-headings">Contact us</li>
+                        <li class="desktop-footer-items">info@fundingontap.com</li>
+                        <li class="desktop-footer-items">+32 (0) 2 401 61 31</li>
+                        <li class="desktop-footer-items">Sablon Tower, <br/>Rue Joseph Stevens 7 <br/>1000 Bruxelles <br/>Belgium</li>
+                    </ul>
+                </div>
+                <div class="w-[45%]">
+                    <div class="flex flex-row justify-around w-full h-[50%] pb-10 pl-9">
+                        <div class="flex flex-col justify-center items-center" id="newsletter-desktop-tablet">
+                            <h3 class="font-unna-400-it text-[28px]">Subscribe to our Newsletter!</h3>
+                            <form class="flex flex-row justify-between items-center h-10 w-[416px] my-3" action="" method="">
+                                <input class="mt-o bg-white/[.62] font-jose-400-it text-base h-full w-[281px] rounded-l-full pl-8" type="email" name="email" placeholder="email@gmail.com">
+                                <input class="font-unna-700-it bg-white text-primary-dark2 text-[19px] h-full w-[130px] rounded-r-full" type="submit" value="SIGN ME UP!">
+                            </form>
+                            <p class="font-jose-400-it text-center text-sm">Stay up to date with our monthly newsletter <br/>on our publications, announcements and projects. <br/>Read our EU GDPR compliant policy.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+
+            <!-- END DESKTOP FOOTER -->
+
+
+
+        </footer>
+    </div>
+    <script src="../js/script.js"></script>
+</body>
+</html>
