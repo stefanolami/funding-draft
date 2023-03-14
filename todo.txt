@@ -2,6 +2,7 @@ DONE FULL PAGES
     home
     newsroom
     contact
+    publications
 
 
 DONE SECTIONS

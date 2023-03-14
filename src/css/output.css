@@ -871,6 +871,11 @@ video {
   margin-right: 2rem;
 }
 
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .my-1 {
   margin-top: 0.25rem;
   margin-bottom: 0.25rem;
@@ -944,11 +949,6 @@ video {
 .my-\[6px\] {
   margin-top: 6px;
   margin-bottom: 6px;
-}
-
-.mx-auto {
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .mb-10 {
@@ -1407,12 +1407,12 @@ video {
   max-width: 72rem;
 }
 
-.max-w-\[90\%\] {
-  max-width: 90%;
-}
-
 .max-w-7xl {
   max-width: 80rem;
+}
+
+.max-w-\[90\%\] {
+  max-width: 90%;
 }
 
 .cursor-pointer {
@@ -1983,6 +1983,21 @@ video {
   background: #399AC299;
 }
 
+.hover\:border-primary:hover {
+  --tw-border-opacity: 1;
+  border-color: rgb(57 154 194 / var(--tw-border-opacity));
+}
+
+.hover\:bg-primary:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(57 154 194 / var(--tw-bg-opacity));
+}
+
+.hover\:text-white:hover {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
 @media (min-width: 640px) {
   .sm\:w-\[80\%\] {
     width: 80%;
@@ -2422,10 +2437,6 @@ video {
 
   .xl\:w-\[70\%\] {
     width: 70%;
-  }
-
-  .xl\:w-\[81\%\] {
-    width: 81%;
   }
 
   .xl\:w-\[862px\] {
