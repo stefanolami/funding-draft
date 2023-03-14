@@ -14,6 +14,3 @@ module.exports = {
   },
   plugins: [],
 }
-
-
-/* ['./src/html/index.html', './src/html/editing.html', './src/html/home.html', './src/html/newsroom.html'] */

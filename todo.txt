@@ -3,6 +3,7 @@ DONE FULL PAGES
     newsroom
     contact
     publications
+    cookies etc. pages
 
 
 DONE SECTIONS
@@ -16,11 +17,12 @@ DONE SECTIONS
     newsroom
     publications menu
     publications
-    contact page
+    contact
     landing page newsroom preview
 
 
 TODO
+    why us
     services (img or css?)
     see more button (see more, load more?)
     interactive map
