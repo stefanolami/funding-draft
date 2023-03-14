@@ -19,11 +19,14 @@
             
             <!-- TABLET / DESKTOP HEADER -->
 
-            <div class="hidden justify-between items-center select-none md:bg-transparent pt-2 pb-2 md:pt-4 md:pb-4 xl:pt-7 xl:pb-7">
+            <div class="hidden md:flex justify-between items-center select-none md:bg-transparent pt-2 pb-2 md:pt-4 md:pb-4 xl:pt-7 xl:pb-7">
                 <!-- add md:flex -->
-                <object class="w-[177px] xl:hidden h-[55px] ml-7" data="../../images/icons/T&Pfunding-logo.svg" ></object>
-                <object class="hidden w-[145px] xl:inline h-[98px] ml-[4%]" data="../../images/icons/T&Pfunding-logo-desktop.svg" ></object>
-        
+                <a class="xl:hidden" href="./home.html">
+                    <img class="w-[177px] xl:hidden h-[55px] ml-7" src="../../images/icons/T&Pfunding-logo.svg" alt="T&P Funding logo">
+                </a>
+                <a class="hidden xl:block ml-[4%]" href="./home.html">
+                    <img class="w-[145px]h-[98px] ml-[4%]" src="../../images/icons/T&Pfunding-logo-desktop.svg" alt="">             
+                </a>
                 <nav id="header-nav" class="hidden md:flex flex-row justify-around xl:justify-center items-center w-[70%] h-full font-jose-400-it text-base text-center pr-4">    
                     <a class="desktop-header-nav-items" href="#">Newsroom</a>
                     <a class="desktop-header-nav-items" href="#">Services</a>
@@ -43,11 +46,16 @@
 
             <!-- HEADER WITH PICTURE -->
 
-            <div id="header-with-hands" class="relative hidden md:flex flex-col justify-between ">
+            <div id="header-with-hands" class="relative hidden flex-col justify-between ">
+                <!-- add md:flex -->
                 <img class="z-[-10] w-full" src="../../images/landing page/header-1.png" alt="Header Image">
                 <div class="absolute w-full flex justify-between select-none bg-transparent mt-2 xl:mt-4">
-                    <img class="xl:hidden ml-7" src="../../images/icons/T&P-Logo-Funding-long-text-white.svg" >                   
-                    <img class="hidden w-[145px] xl:inline h-[98px] ml-[4%]" src="../../images/icons/T&Pfunding-logo-desktop-white.svg" >
+                    <a href="./home.html">
+                        <img class="xl:hidden ml-7" src="../../images/icons/T&P-Logo-Funding-long-text-white.svg" >                   
+                    </a>
+                    <a class="hidden xl:block" href="./home.html">
+                        <img class="hidden w-[145px] xl:inline h-[98px] ml-[4%]" src="../../images/icons/T&Pfunding-logo-desktop-white.svg" >
+                    </a>
                     <nav id="header-nav" class="hidden md:flex flex-row justify-around xl:justify-center items-center w-[70%] h-full font-jose-400-it text-base text-center text-white my-6">    
                         <a class="desktop-header-nav-items border-white" href="#">Newsroom</a>
                         <a class="desktop-header-nav-items border-white" href="#">Services</a>
@@ -71,7 +79,10 @@
             <!-- MOBILE HEADER -->
             
             <div class="flex md:hidden justify-between items-center select-none md:bg-transparent pt-2 pb-2 md:pt-4 md:pb-4 xl:pt-7 xl:pb-7">
-                <object class="w-[138px] h-[43px] ml-4" data="../../images/icons/T&Pfunding-logo.svg" ></object>
+                <!-- <object class="w-[138px] h-[43px] ml-4" data="../../images/icons/T&Pfunding-logo.svg" ></object> -->
+                <a href="./home.html">
+                    <img class="w-[138px] h-[43px] ml-4" src="../../images/icons/T&Pfunding-logo.svg" alt="">
+                </a>                
                 <div id="mobile-menu-div" class="md:hidden relative mr-3">
                     <div id="mobile-menu" class="select-none md:hidden">
                         <object data="../../images/icons/mobile-menu-circle.svg" width="48" height="35"></object>

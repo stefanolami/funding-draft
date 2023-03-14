@@ -1,4 +1,8 @@
-DONE
+DONE FULL PAGES
+    home
+
+
+DONE SECTIONS
     header
     footer
     numbered list on landing page
@@ -10,10 +14,10 @@ DONE
     publications menu
     publications
     contact page
+    landing page newsroom preview
 
 
 TODO
-    landing page newsroom preview
     services (img or css?)
     see more button (see more, load more?)
     interactive map
@@ -26,8 +30,3 @@ TODO
 
 DOUBTS
     photo section who we are which version
-    nesroom/publictions internal or external pages?  % or xp?
-    input focus design
-    services img or css?
-    
-    tablet missing parts: terms/cookies/privacy   newsroom   publications   contact page

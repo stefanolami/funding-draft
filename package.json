@@ -2,7 +2,7 @@
   "name": "funding-draft",
   "version": "1.0.0",
   "description": "",
-  "main": "./src/html/index.js",
+  "main": "./src/html/home.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "tail": "npx tailwindcss -i ./src/css/input.css -o ./src/css/output.css --watch"
