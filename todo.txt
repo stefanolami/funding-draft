@@ -4,6 +4,7 @@ DONE FULL PAGES
     contact
     publications
     cookies etc. pages
+    why us
 
 
 DONE SECTIONS
@@ -22,12 +23,12 @@ DONE SECTIONS
 
 
 TODO
-    why us
     services (img or css?)
     see more button (see more, load more?)
     interactive map
     our services layout
     articles page
+    buttons hover style
 
 
 
