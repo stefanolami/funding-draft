@@ -23,6 +23,7 @@ DONE SECTIONS
 
 
 TODO
+    finish contact section in article desktop size
     services (img or css?)
     interactive map
     our services layout
