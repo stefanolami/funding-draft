@@ -24,7 +24,6 @@ DONE SECTIONS
 
 TODO
     services (img or css?)
-    see more button (see more, load more?)
     interactive map
     our services layout
     articles page
