@@ -2526,6 +2526,14 @@ video {
     margin-top: 2.5rem;
   }
 
+  .xl\:mt-16 {
+    margin-top: 4rem;
+  }
+
+  .xl\:mt-20 {
+    margin-top: 5rem;
+  }
+
   .xl\:mt-28 {
     margin-top: 7rem;
   }
@@ -2546,16 +2554,8 @@ video {
     margin-top: 2.25rem;
   }
 
-  .xl\:mt-12 {
-    margin-top: 3rem;
-  }
-
-  .xl\:mt-16 {
-    margin-top: 4rem;
-  }
-
-  .xl\:mt-20 {
-    margin-top: 5rem;
+  .xl\:mt-6 {
+    margin-top: 1.5rem;
   }
 
   .xl\:block {
@@ -2626,6 +2626,10 @@ video {
     width: 80%;
   }
 
+  .xl\:w-4\/6 {
+    width: 66.666667%;
+  }
+
   .xl\:w-40 {
     width: 10rem;
   }
@@ -2672,14 +2676,6 @@ video {
 
   .xl\:w-\[862px\] {
     width: 862px;
-  }
-
-  .xl\:w-3\/5 {
-    width: 60%;
-  }
-
-  .xl\:w-4\/6 {
-    width: 66.666667%;
   }
 
   .xl\:grid-cols-\[1fr_1fr_40\%\] {
@@ -2744,6 +2740,18 @@ video {
     padding-top: 1.75rem;
   }
 
+  .xl\:pl-\[85\%\] {
+    padding-left: 85%;
+  }
+
+  .xl\:pl-\[88\%\] {
+    padding-left: 88%;
+  }
+
+  .xl\:pr-\[20\%\] {
+    padding-right: 20%;
+  }
+
   .xl\:text-2xl {
     font-size: 1.5rem;
     line-height: 2rem;
@@ -2787,6 +2795,14 @@ video {
     line-height: 1.75rem;
   }
 
+  .xl\:text-\[16px\] {
+    font-size: 16px;
+  }
+
+  .xl\:text-\[19px\] {
+    font-size: 19px;
+  }
+
   .xl\:leading-10 {
     line-height: 2.5rem;
   }
@@ -2797,6 +2813,18 @@ video {
 
   .xl\:leading-\[57px\] {
     line-height: 57px;
+  }
+
+  .xl\:leading-\[17px\] {
+    line-height: 17px;
+  }
+
+  .xl\:leading-\[22px\] {
+    line-height: 22px;
+  }
+
+  .xl\:leading-\[24px\] {
+    line-height: 24px;
   }
 }
 
