@@ -536,6 +536,13 @@ video {
   font-size: 17px;
 }
 
+.mobile-footer-btns:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+  --tw-text-opacity: 1;
+  color: rgb(57 154 194 / var(--tw-text-opacity));
+}
+
 @media (min-width: 1280px) {
   .desktop-header-nav-items {
     width: 144px;
@@ -2095,6 +2102,11 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.hover\:text-primary:hover {
+  --tw-text-opacity: 1;
+  color: rgb(57 154 194 / var(--tw-text-opacity));
+}
+
 .hover\:text-primary-dark2:hover {
   --tw-text-opacity: 1;
   color: rgb(38 71 108 / var(--tw-text-opacity));
@@ -2550,12 +2562,12 @@ video {
     margin-top: 12rem;
   }
 
-  .xl\:mt-9 {
-    margin-top: 2.25rem;
-  }
-
   .xl\:mt-6 {
     margin-top: 1.5rem;
+  }
+
+  .xl\:mt-9 {
+    margin-top: 2.25rem;
   }
 
   .xl\:block {
@@ -2724,12 +2736,16 @@ video {
     padding-bottom: 303px;
   }
 
-  .xl\:pl-\[90\%\] {
-    padding-left: 90%;
+  .xl\:pl-\[88\%\] {
+    padding-left: 88%;
   }
 
   .xl\:pl-\[92px\] {
     padding-left: 92px;
+  }
+
+  .xl\:pr-\[20\%\] {
+    padding-right: 20%;
   }
 
   .xl\:pt-3 {
@@ -2738,18 +2754,6 @@ video {
 
   .xl\:pt-7 {
     padding-top: 1.75rem;
-  }
-
-  .xl\:pl-\[85\%\] {
-    padding-left: 85%;
-  }
-
-  .xl\:pl-\[88\%\] {
-    padding-left: 88%;
-  }
-
-  .xl\:pr-\[20\%\] {
-    padding-right: 20%;
   }
 
   .xl\:text-2xl {
@@ -2763,6 +2767,10 @@ video {
 
   .xl\:text-\[15px\] {
     font-size: 15px;
+  }
+
+  .xl\:text-\[19px\] {
+    font-size: 19px;
   }
 
   .xl\:text-\[21px\] {
@@ -2795,28 +2803,8 @@ video {
     line-height: 1.75rem;
   }
 
-  .xl\:text-\[16px\] {
-    font-size: 16px;
-  }
-
-  .xl\:text-\[19px\] {
-    font-size: 19px;
-  }
-
   .xl\:leading-10 {
     line-height: 2.5rem;
-  }
-
-  .xl\:leading-\[26px\] {
-    line-height: 26px;
-  }
-
-  .xl\:leading-\[57px\] {
-    line-height: 57px;
-  }
-
-  .xl\:leading-\[17px\] {
-    line-height: 17px;
   }
 
   .xl\:leading-\[22px\] {
@@ -2825,6 +2813,14 @@ video {
 
   .xl\:leading-\[24px\] {
     line-height: 24px;
+  }
+
+  .xl\:leading-\[26px\] {
+    line-height: 26px;
+  }
+
+  .xl\:leading-\[57px\] {
+    line-height: 57px;
   }
 }
 

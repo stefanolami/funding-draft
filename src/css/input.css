@@ -10,7 +10,7 @@
     }
 
     .mobile-footer-btns {
-        @apply w-[134px] h-8 border-[1px] border-white rounded-full text-center text-[17px] pt-0.5 mx-3;
+        @apply w-[134px] h-8 border-[1px] border-white rounded-full text-center text-[17px] pt-0.5 mx-3 hover:bg-white hover:text-primary;
     }
 
     .desktop-header-nav-items {
