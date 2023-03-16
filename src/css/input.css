@@ -68,6 +68,22 @@
     .contact-page-input {
         @apply border-2 border-primary focus:border-primary-dark2 bg-primary/[.06] focus:bg-primary-dark2/[.06]  font-jose-600-it text-[9px] md:text-sm leading-[9px] xl:leading-4 pl-[10px] md:pl-5 my-[14px]
     }
+
+    .publications-article-p {
+        @apply font-jose-400 text-[15px] md:text-[17px] leading-[17px] md:leading-[21px]
+    }
+
+    .publications-article-h2 {
+        @apply mx-auto mt-8 md:mt-16 font-unna-700 text-center text-[23px] md:text-[33px] xl:text-[50px] leading-[28px] md:leading-[38px] xl:leading-[57px]
+    }
+
+    .publications-article-h2-subtitle {
+        @apply w-[92%] md:w-full mx-auto mt-4 md:mt-7 font-jose-300-it text-center text-[15px] md:text-[19px] leading-[21px] md:leading-[19px]
+    }
+
+    .publications-article-h4 {
+        @apply mt-8 md:mt-12 font-unna-700-it text-[20px] md:text-[25px] leading-[23px] md:leading-[28px]
+    }
 }
 
 
