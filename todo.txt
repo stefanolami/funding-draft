@@ -21,6 +21,7 @@ DONE SECTIONS
     publications
     contact
     landing page newsroom preview
+    mobile services
 
 
 TODO
