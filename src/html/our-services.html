@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,200;0,300;0,400;0,600;1,200;1,300;1,400;1,600&family=Nunito&family=Unna:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link href="../css/output.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../css/styles.css" />
+    <title>T&P Funding</title>
+</head>
+<body>
+    <div id="page-wrapper" class="relative min-h-screen">
+        <header>
+
+
+            
+            <!-- TABLET / DESKTOP HEADER -->
+
+            <div class="hidden md:flex justify-between items-center select-none md:bg-transparent pb-2 md:pt-2 md:pb-4 xl:pt-3 xl:pb-7">
+                <!-- add md:flex -->
+                <a class="xl:hidden ml-7" href="./home.html">
+                    <img class="w-[170px] xl:hidden" src="../../images/icons/T&Pfunding-logo.svg" alt="T&P Funding logo">
+                </a>
+                <a class="hidden xl:block ml-[4%]" href="./home.html">
+                    <img class="w-[145px]" src="../../images/icons/T&Pfunding-logo-desktop.svg" alt="">             
+                </a>
+                <nav id="header-nav" class="hidden md:flex flex-row justify-around xl:justify-center items-center w-[70%] h-full font-jose-400-it text-base text-center">    
+                    <a class="desktop-header-nav-items" href="./newsroom.html">Newsroom</a>
+                    <a class="desktop-header-nav-items" href="./services.html">Services</a>
+                    <a class="desktop-header-nav-items" href="./publications.html">Publications</a>
+                    <a class="desktop-header-nav-items" href="./why-us.html">Why Us</a>
+                    <a class="desktop-header-nav-items" href="./who-we-are.html">Who We Are</a>
+                    <a class="desktop-header-nav-items xl:border-r-0" href="./contact.html">Contact</a>
+                </nav>
+            </div>
+            
+
+            <!-- END TABLET / DESKTOP HEADER -->
+
+
+
+            <!-- MOBILE HEADER -->
+            
+            <div class="flex md:hidden justify-between items-center select-none md:bg-transparent pt-2 pb-2 md:pt-4 md:pb-4 xl:pt-7 xl:pb-7">
+                <!-- <object class="w-[138px] h-[43px] ml-4" data="../../images/icons/T&Pfunding-logo.svg" ></object> -->
+                <a href="./home.html">
+                    <img class="w-[138px] h-[43px] ml-4" src="../../images/icons/T&Pfunding-logo.svg" alt="">
+                </a>                
+                <div id="mobile-menu-div" class="md:hidden relative mr-3">
+                    <div id="mobile-menu" class="select-none md:hidden">
+                        <object data="../../images/icons/mobile-menu-circle.svg" width="48" height="35"></object>
+                        <div class="absolute top-0 flex flex-col w-full h-[35px] justify-center items-center">
+                            <div class="mobile-menu-rectangle"></div>
+                            <div class="mobile-menu-rectangle"></div>
+                            <div class="mobile-menu-rectangle"></div>
+                        </div>
+                    </div>
+                    <nav id="mobile-menu-nav" class="hidden absolute z-20 w-[148px] md:w-[500px] h-[352px] md:h-full top-[-4px] right-0 flex-col justify-between border-primary border-[3px] rounded-lg rounded-tr-none md:border-none bg-white md:bg-transparent">    
+                        <div id="mobile-menu-close" class="ml-[85%] mt-0 font-nunito-400  text-primary text-lg md:hidden">x</div>
+                        <ul class="flex flex-col md:flex-row justify-evenly h-[90%] ml-6 mb-3 font-jose-400-it text-primary-dark text-base">
+                            <li><a href="./newsroom.html">Newsroom</a></li>
+                            <li><a href="./services.html">Services</a></li>
+                            <li><a href="./publications.html">Publications</a></li>
+                            <li><a href="./why-us.html">Why Us</a></li>
+                            <li><a href="./who-we-are.html">Who We Are</a></li>
+                            <li><a href="./contact.html">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            
+    
+            <!-- END MOBILE HEADER -->
+    
+        </header>
+
+
+
+
+
+        <main class="pb-[164px] md:pb-[426px] xl:pb-[303px]">
+
+
+            <!-- MOBILE OUR SERVICES -->
+
+            <div class="mt-4">
+                <h1 class="text-center font-unna-700 text-[20px] leading:-[23px]">OUR SERVICES</h1>
+                <p class="mt-4 text-center font-jose-400-it text-[14px] leading-[16px]">We can step in at any point of the cycle, <br>or provide relevant training</p>
+                <div class="swiper mt-4">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide h-96">
+                            <h4 class="font-unna-700 text-[18px] leading-[20px] text-mygreen text-center">PROJECT INITIATION</h4>
+                            <div class="grid grid-cols-2 gap-2 h-52 mx-5 mt-6 mb-12">
+                                <div class="grid grid-rows-3 gap-3">
+                                    <div class="project-initiation-btns project-initiation-focused flex justify-center items-center px-3 text-center font-unna-700 text-[16px] leading-[18px] text-white rounded-full cursor-pointer">Brainstorming</div>
+                                    <div class="project-initiation-btns project-initiation-unfocused flex justify-center items-center px-3 text-center font-unna-700 text-[16px] leading-[18px] text-white rounded-full cursor-pointer">Idea Development</div>
+                                    <div class="project-initiation-btns project-initiation-unfocused flex justify-center items-center px-3 text-center font-unna-700 text-[16px] leading-[18px] text-white rounded-full cursor-pointer">Funding Match</div>
+                                </div>
+                                <div class="block project-initiation bg-mygreen/[.2] rounded-[40px] pt-4 px-2">
+                                    <h6 class="mb-2 font-unna-700 text-[14px] leading-[16px] text-center text-mygreen">BRAINSTORMING</h6>
+                                    <ul class="font-jose-400 text-[11px] leading-[13px] list-disc pl-3">
+                                        <li>Creativity process to gather ideas, thoughts and inspiration</li>
+                                        <li>Structured process to find new ideas which can be filtered into a catalogue of concrete opportunities with the most potential</li>
+                                    </ul>
+                                </div>
+                                <div class="hidden project-initiation bg-mygreen/[.2] rounded-[40px] pt-4 px-2">
+                                    <h6 class="mb-2 font-unna-700 text-[14px] leading-[16px] text-center text-mygreen">IDEA DEVELOPMENT</h6>
+                                    <ul class="font-jose-400 text-[11px] leading-[13px] list-disc pl-3">
+                                        <li>Creativity process to gather ideas, thoughts and inspiration</li>
+                                        <li>Structured process to find new ideas which can be filtered into a catalogue of concrete opportunities with the most potential</li>
+                                    </ul>
+                                </div>
+                                <div class="hidden project-initiation bg-mygreen/[.2] rounded-[40px] pt-4 px-2">
+                                    <h6 class="mb-2 font-unna-700 text-[14px] leading-[16px] text-center text-mygreen">FUNDING MATCH</h6>
+                                    <ul class="font-jose-400 text-[11px] leading-[13px] list-disc pl-3">
+                                        <li>Creativity process to gather ideas, thoughts and inspiration</li>
+                                        <li>Structured process to find new ideas which can be filtered into a catalogue of concrete opportunities with the most potential</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <a  href="./contact.html" class="mx-auto w-[107px] h-7 flex justify-center items-center pt-[2px] font-jose-600 text-[10px] leading-[12px] text-mygreen-light border-mygreen-light border-2 rounded-full">
+                                <div>GET IN TOUCH</div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide h-96">
+                            <h4 class="font-unna-700 text-[18px] leading-[20px] text-primary-focus text-center">PROJECT PLANNING</h4>
+                            <div class="grid grid-cols-2 gap-2 h-52 mx-5 mt-6 mb-12">
+                                <div class="grid grid-rows-3 gap-3">
+                                    <div class="flex justify-center items-center px-3 text-center font-unna-700 text-[16px] leading-[18px] text-white bg-primary rounded-full cursor-pointer">Idea to Project</div>
+                                    <div class="flex justify-center items-center px-3 text-center font-unna-700 text-[16px] leading-[18px] text-white bg-primary rounded-full cursor-pointer">Project Development</div>
+                                    <div class="flex justify-center items-center px-3 text-center font-unna-700 text-[16px] leading-[18px] text-white bg-primary rounded-full cursor-pointer">Project Proposal</div>
+                                </div>
+                                <div class="bg-primary/[.2] rounded-[40px] pt-4 px-2">
+                                    <h6 class="mb-2 font-unna-700 text-[14px] leading-[16px] text-center text-primary">IDEA TO PROJECT</h6>
+                                    <ul class="font-jose-400 text-[11px] leading-[13px] list-disc pl-3">
+                                        <li>Creativity process to gather ideas, thoughts and inspiration</li>
+                                        <li>Structured process to find new ideas which can be filtered into a catalogue of concrete opportunities with the most potential</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <a  href="./contact.html" class="mx-auto w-[107px] h-7 flex justify-center items-center pt-[2px] font-jose-600 text-[10px] leading-[12px] text-primary border-primary border-2 rounded-full">
+                                <div>GET IN TOUCH</div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide h-96">
+                            <h4 class="font-unna-700 text-[18px] leading-[20px] text-primary-dark2 text-center">PROJECT EXECUTION</h4>
+                            <div class="grid grid-cols-2 gap-2 h-52 mx-5 mt-6 mb-12">
+                                <div class="grid grid-rows-3 gap-3">
+                                    <div class="flex justify-center items-center px-3 text-center font-unna-700 text-[16px] leading-[18px] text-white bg-primary-dark2 rounded-full cursor-pointer">Contract Negociation</div>
+                                    <div class="flex justify-center items-center px-3 text-center font-unna-700 text-[16px] leading-[18px] text-white bg-primary-dark2 rounded-full cursor-pointer">Project Implementation</div>
+                                    <div class="flex justify-center items-center px-3 text-center font-unna-700 text-[16px] leading-[18px] text-white bg-primary-dark2 rounded-full cursor-pointer">Project Communication</div>
+                                </div>
+                                <div class="bg-primary-dark2/[.2] rounded-[40px] pt-4 px-2">
+                                    <h6 class="mb-2 font-unna-700 text-[14px] leading-[16px] text-center text-primary-dark2">CONTRACT NEGOCIATION</h6>
+                                    <ul class="font-jose-400 text-[11px] leading-[13px] list-disc pl-3">
+                                        <li>Creativity process to gather ideas, thoughts and inspiration</li>
+                                        <li>Structured process to find new ideas which can be filtered into a catalogue of concrete opportunities with the most potential</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <a  href="./contact.html" class="mx-auto w-[107px] h-7 flex justify-center items-center pt-[2px] font-jose-600 text-[10px] leading-[12px] text-primary-dark2 border-primary-dark2 border-2 rounded-full">
+                                <div>GET IN TOUCH</div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide h-96">
+                            <h4 class="font-unna-700 text-[18px] leading-[20px] text-mygrey text-center">PROJECT CLOSURE</h4>
+                            <div class="grid grid-cols-2 gap-2 h-52 mx-5 mt-6 mb-12">
+                                <div class="grid grid-rows-3 gap-3">
+                                    <div class="flex justify-center items-center px-3 text-center font-unna-700 text-[16px] leading-[18px] text-white bg-mygrey/[.8] rounded-full cursor-pointer">Completion of Project</div>
+                                    <div class="flex justify-center items-center px-3 text-center font-unna-700 text-[16px] leading-[18px] text-white bg-mygrey/[.8] rounded-full cursor-pointer">Market Introduction</div>
+                                    <div class="flex justify-center items-center px-3 text-center font-unna-700 text-[16px] leading-[18px] text-white bg-mygrey/[.8] rounded-full cursor-pointer">New Possibilities</div>
+                                </div>
+                                <div class="bg-mygrey/[.2] rounded-[40px] pt-4 px-2">
+                                    <h6 class="mb-2 font-unna-700 text-[14px] leading-[16px] text-center text-mygrey">COMPLETION OF PROJECT</h6>
+                                    <ul class="font-jose-400 text-[11px] leading-[13px] list-disc pl-3">
+                                        <li>Creativity process to gather ideas, thoughts and inspiration</li>
+                                        <li>Structured process to find new ideas which can be filtered into a catalogue of concrete opportunities with the most potential</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <a  href="./contact.html" class="mx-auto w-[107px] h-7 flex justify-center items-center pt-[2px] font-jose-600 text-[10px] leading-[12px] text-mygrey border-mygrey border-2 rounded-full">
+                                <div>GET IN TOUCH</div>
+                            </a>
+                        </div>
+                    </div>
+                  
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev text-mygreen -translate-y-[180px] scale-[.45]"></div>
+                    <div class="swiper-button-next text-mygreen -translate-y-[180px] scale-[.45]"></div>
+                  </div>
+            </div>
+
+            <!-- END MOBILE OUR SERVICES -->
+            
+
+        </main>
+
+
+
+
+
+
+
+        <footer>
+            <!-- footer needs body with position relative and min-height 100vh (relative min-h-screen)
+            and main with padding-bottom equal to footer height (pb-[164px]) -->
+    
+
+            <!-- MOBILE FOOTER -->
+            <div class="absolute bottom-0 left-0 flex md:hidden flex-col justify-around items-center w-full h-[164px] bg-primary text-white">
+                <div class="flex flex-row items-center justify-evenly pt-4" id="mobile-footer-btns">
+                    <a class="mobile-footer-btns font-unna-700-it" href="#">Newsletter</a>
+                    <a class="mobile-footer-btns font-unna-700-it" href="./contact.html">Contact</a>
+                </div>
+    
+                <div class="font-jose-400 text-[11px] text-center leading-3">
+                    <p>©2023 Time&Place Funding. <br/>A pillar of Time&Place Consulting. <br/>All rights reserved</p>
+                </div>
+    
+                <ul class="w-full px-9 flex flex-row justify-around font-jose-700 text-[11px]">
+                    <li><a href="./terms-conditions.html">Terms & Conditions</a></li>
+                    <li>-</li>
+                    <li><a href="./cookie-use.html">Cookie Use</a></li>
+                    <li>-</li>
+                    <li><a href="./privacy-policy.html">Privacy Policy</a></li>
+                </ul>
+            </div>
+            
+
+            <!-- END MOBILE FOOTER -->
+
+            
+
+
+            <!-- TABLET FOOTER -->
+            <div  class="absolute bottom-0 left-0 hidden md:flex xl:hidden flex-col justify-evenly items-center w-full h-[426px] bg-primary text-white">
+                <div class="flex flex-row justify-around w-full h-[50%]">
+                    <div class="flex flex-col justify-center items-center" id="newsletter-desktop-tablet">
+                        <h3 class="font-unna-400-it text-[28px]">Subscribe to our Newsletter!</h3>
+                        <form class="flex flex-row justify-between items-center h-10 w-[416px] my-3" action="" method="">
+                            <input class="mt-o bg-white/[.62] font-jose-400-it text-base h-full w-[281px] rounded-l-full pl-8" type="email" name="email" placeholder="email@gmail.com">
+                            <input class="font-unna-700-it bg-white text-primary-dark2 text-[19px] h-full w-[130px] rounded-r-full" type="submit" value="SIGN ME UP!">
+                        </form>
+                        <p class="font-jose-400-it text-center text-sm">Stay up to date with our monthly newsletter <br/>on our publications, announcements and projects. <br/>Read our EU GDPR compliant policy.</p>
+                    </div>
+                    <div class="w-[201px] h-10  mt-[77px]">
+                        <a class="inline-block w-full h-full border-[1px] border-white rounded-full font-unna-700-it text-center text-[26px] hover:bg-white hover:text-primary" href="./contact.html">Contact</a>
+                    </div>
+                </div>
+                <div id="tablet-footer-nav" class="flex flex-col justify-around w-[88%] h-[120px] px-2 py-1 border-y font-jose-400-it text-xl">
+                    <nav class="flex flex-row justify-around items-center ">
+                        <a href="./newsroom.html">Newsroom</a>
+                        <a href="./services.html">Services</a>
+                        <a href="./publications.html">Publications</a>
+                        <a href="./why-us.html">Why Us</a>
+                        <a href="./who-we-are.html">Who We Are</a>
+                    </nav>
+                    <nav class="flex flex-row justify-around items-center ">
+                        <a href="./terms-conditions.html">Terms & Conditions</a>
+                        <a href="./cookie-use.html">Cookie Use</a>
+                        <a href="./privacy-policy.html">Privacy Policy</a>
+                    </nav>
+                </div>
+                <div class="font-jose-200 text-xl text-center">
+                    <p>©2023 Time&Place Funding. All rights reserved. <br/>Time&Place Funding is a pillar of Time&Place Consulting.</p>
+                </div>
+            </div>
+                
+            
+
+            <!-- END TABLET FOOTER -->
+
+
+
+            <!-- DESKTOP FOOTER -->
+            <div class="absolute bottom-0 left-0 hidden xl:flex flex-row justify-evenly items-center w-full h-[303px] bg-primary text-white">
+                <div class="grid grid-cols-3 w-[55%]">
+                    <nav class="desktop-footer-navs">
+                        <div class="desktop-footer-headings">Overview</div>
+                        <a class="desktop-footer-items" href="./newsroom.html">Newsroom</a>
+                        <a class="desktop-footer-items" href="./services.html">Services</a>
+                        <a class="desktop-footer-items" href="./publications.html">Publications</a>
+                        <a class="desktop-footer-items" href="./why-us.html">Why Us</a>
+                        <a class="desktop-footer-items" href="./who-we-are.html">Who We Are</a>
+                    </nav>
+                    <nav class="desktop-footer-navs">
+                        <div class="desktop-footer-headings">Privacy</div>
+                        <a class="desktop-footer-items" href="./terms-conditions.html">Terms & Conditions</a>
+                        <a class="desktop-footer-items" href="./cookie-use.html">Cookie Use</a>
+                        <a class="desktop-footer-items" href="./privacy-policy.html">Privacy Policy</a>
+                    </nav>
+                    <ul class="desktop-footer-navs">
+                        <li class="desktop-footer-headings">Contact us</li>
+                        <li class="desktop-footer-items">info@fundingontap.com</li>
+                        <li class="desktop-footer-items">+32 (0) 2 401 61 31</li>
+                        <li class="desktop-footer-items">Sablon Tower, <br/>Rue Joseph Stevens 7 <br/>1000 Bruxelles <br/>Belgium</li>
+                    </ul>
+                </div>
+                <div class="w-[45%]">
+                    <div class="flex flex-row justify-around w-full h-[50%] pb-10 pl-9">
+                        <div class="flex flex-col justify-center items-center" id="newsletter-desktop-tablet">
+                            <h3 class="font-unna-400-it text-[28px]">Subscribe to our Newsletter!</h3>
+                            <form class="flex flex-row justify-between items-center h-10 w-[416px] my-3" action="" method="">
+                                <input class="mt-o bg-white/[.62] font-jose-400-it text-base h-full w-[281px] rounded-l-full pl-8" type="email" name="email" placeholder="email@gmail.com">
+                                <input class="font-unna-700-it bg-white text-primary-dark2 text-[19px] h-full w-[130px] rounded-r-full" type="submit" value="SIGN ME UP!">
+                            </form>
+                            <p class="font-jose-400-it text-center text-sm">Stay up to date with our monthly newsletter <br/>on our publications, announcements and projects. <br/>Read our EU GDPR compliant policy.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+
+            <!-- END DESKTOP FOOTER -->
+
+
+
+        </footer>
+    </div>
+    <script src="../js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            // Optional parameters
+            direction: 'horizontal',
+            loop: true,
+
+            // If we need pagination
+            pagination: {
+                el: '.swiper-pagination',
+            },
+
+            // Navigation arrows
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+
+        });
+    </script>
+</body>
+</html>

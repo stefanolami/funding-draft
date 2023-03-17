@@ -24,10 +24,8 @@ DONE SECTIONS
 
 
 TODO
-    services (img or css?)
+    services
     interactive map
-    our services layout
-    articles page
     buttons hover style
 
 
