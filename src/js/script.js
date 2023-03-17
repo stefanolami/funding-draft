@@ -32,11 +32,12 @@ const mobileServicesProjClosBtns = Array.from(document.getElementsByClassName('m
 
 function handleMobileServicesBtns(arr1, arr2, str) {
     arr1.forEach(btn => btn.addEventListener('click', (e) => {
+        console.log('click')
         btnIndex = arr1.findIndex(element => element == e.target)
-        btnFocusIndex = arr1.findIndex(element => element.classList.contains(`mobile-project-${str}-focused`))
+        btnFocusIndex = arr1.findIndex(element => element.classList.contains(`services-project-${str}-focused`))
         divIndex = arr2.findIndex(element => !element.classList.contains('hidden'))
-        arr1[btnFocusIndex].classList.replace(`mobile-project-${str}-focused`, `mobile-project-${str}-unfocused`)
-        e.target.classList.replace(`mobile-project-${str}-unfocused`, `mobile-project-${str}-focused`)
+        arr1[btnFocusIndex].classList.replace(`services-project-${str}-focused`, `services-project-${str}-unfocused`)
+        e.target.classList.replace(`services-project-${str}-unfocused`, `services-project-${str}-focused`)
         arr2[divIndex].classList.replace('block', 'hidden');
         arr2[btnIndex].classList.replace('hidden', 'block');
     }))
@@ -52,62 +53,10 @@ handleMobileServicesBtns(mobileServicesProjClosBtns, mobileServicesProjClosDivs,
 /*     TABLET / DESKTOP OUR SERVICES        */
 
 
-const tabletServicesProjInitDivs = Array.from(document.getElementsByClassName('tablet-project-initiation'))
-const tabletServicesProjInitBtns = Array.from(document.getElementsByClassName('tablet-project-initiation-btns'))
-const tabletServicesProjPlanDivs = Array.from(document.getElementsByClassName('tablet-project-planning'))
-const tabletServicesProjPlanBtns = Array.from(document.getElementsByClassName('tablet-project-planning-btns'))
-const tabletServicesProjExecDivs = Array.from(document.getElementsByClassName('tablet-project-execution'))
-const tabletServicesProjExecBtns = Array.from(document.getElementsByClassName('tablet-project-execution-btns'))
-const tabletServicesProjClosDivs = Array.from(document.getElementsByClassName('tablet-project-closure'))
-const tabletServicesProjClosBtns = Array.from(document.getElementsByClassName('tablet-project-closure-btns'))
 const tabletServicesDivs  = Array.from(document.getElementsByClassName('tablet-services-div'))
 const tabletServicesBtns = Array.from(document.getElementsByClassName('tablet-services-btns'))
 const tabletServicesLogo = document.getElementById('tablet-services-logo')
 
-
-/* function handleTabletServicesBtns(arr1, arr2, str) {
-    arr1.forEach(btn => btn.addEventListener('click', (e) => {
-        if (tabletServicesLogo.classList.contains('block')) {
-            tabletServicesLogo.classList.replace('block', 'hidden')
-        }
-        btnIndex = arr1.findIndex(element => element == e.target)
-        btnFocusIndex = tabletServicesBtns.findIndex(element => element.classList.contains(`services-project-${str}-focused`))
-        console.log(btnFocusIndex)
-        console.log(arr1[btnFocusIndex])
-        divIndex = tabletServicesProjDivs.findIndex(element => !element.classList.contains('hidden'))
-        console.log(divIndex)
-        if (btnFocusIndex !== -1) {
-            arr1[btnFocusIndex].classList.replace(`services-project-${str}-focused`, `services-project-${str}-unfocused`)
-        }
-        e.target.classList.replace(`services-project-${str}-unfocused`, `services-project-${str}-focused`)
-        if (divIndex !== -1) {
-            arr2[divIndex].classList.replace('block', 'hidden');
-        }
-        arr2[btnIndex].classList.replace('hidden', 'block');
-    }))
-} */
-
-/* function handleTabletServicesBtns(arr1, arr2, str) {
-    arr1.forEach(btn => btn.addEventListener('click', (e) => {
-        if (tabletServicesLogo.classList.contains('block')) {
-            tabletServicesLogo.classList.replace('block', 'hidden')
-        }
-        btnIndex = arr1.findIndex(element => element == e.target)
-        btnFocusIndex = tabletServicesBtns.findIndex(element => element.classList.contains('focused'))
-        console.log(btnFocusIndex)
-        console.log(tabletServicesBtns[btnFocusIndex])
-        divIndex = tabletServicesProjDivs.findIndex(element => !element.classList.contains('hidden'))
-        
-        if (btnFocusIndex !== -1) {
-            arr1[btnFocusIndex].classList.replace(`services-project-${str}-focused`, `services-project-${str}-unfocused`)
-        }
-        e.target.classList.replace(`services-project-${str}-unfocused`, `services-project-${str}-focused`)
-        if (divIndex !== -1) {
-            arr2[divIndex].classList.replace('block', 'hidden');
-        }
-        arr2[btnIndex].classList.replace('hidden', 'block');
-    }))
-} */
 
 tabletServicesBtns.forEach(btn => btn.addEventListener('click', (e) => {
     if (tabletServicesLogo.classList.contains('block')) {
@@ -125,9 +74,3 @@ tabletServicesBtns.forEach(btn => btn.addEventListener('click', (e) => {
     }
     tabletServicesDivs[btnIndex].classList.replace('hidden', 'block')
 }))
-
-
-/* handleTabletServicesBtns(tabletServicesProjInitBtns, tabletServicesProjInitDivs, 'initiation')
-handleTabletServicesBtns(tabletServicesProjPlanBtns, tabletServicesProjPlanDivs, 'planning')
-handleTabletServicesBtns(tabletServicesProjExecBtns, tabletServicesProjExecDivs, 'execution')
-handleTabletServicesBtns(tabletServicesProjClosBtns, tabletServicesProjClosDivs, 'closure') */
