@@ -85,12 +85,36 @@
         @apply mt-8 md:mt-12 xl:mt-16 font-unna-700-it text-[20px] md:text-[25px] leading-[23px] md:leading-[28px]
     }
 
-    .project-initiation-focused {
+    .mobile-project-initiation-focused {
         @apply bg-mygreen
     }
 
-    .project-initiation-unfocused {
+    .mobile-project-initiation-unfocused {
         @apply bg-mygreen-light
+    }
+
+    .mobile-project-planning-focused {
+        @apply bg-primary-focus
+    }
+
+    .mobile-project-planning-unfocused {
+        @apply bg-primary
+    }
+
+    .mobile-project-execution-focused {
+        @apply bg-primary-dark2/80
+    }
+
+    .mobile-project-execution-unfocused {
+        @apply bg-primary-dark2
+    }
+
+    .mobile-project-closure-focused {
+        @apply bg-mygrey
+    }
+
+    .mobile-project-closure-unfocused {
+        @apply bg-mygrey/80
     }
 }
 
