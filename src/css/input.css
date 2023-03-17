@@ -89,12 +89,19 @@
         @apply bg-mygreen
     }
 
+    .services-project-initiation.focused {
+        @apply bg-mygreen
+    }
+
     .services-project-initiation-unfocused {
+        @apply bg-mygreen-light
+    }
+    .services-project-initiation.unfocused {
         @apply bg-mygreen-light
     }
 
     .tablet-services-btns {
-        @apply absolute z-30 px-2 w-[160px] h-[80px] rounded-full font-unna-700 text-center text-white text-[22px] leading-[25px] flex justify-center items-center cursor-pointer
+        @apply absolute z-30 px-2 w-[160px] h-[80px] rounded-full font-unna-700 text-center text-white text-[22px] leading-[25px] flex justify-center items-center cursor-pointer select-none
     }
 
     .tablet-services-div-title {
@@ -105,7 +112,15 @@
         @apply bg-primary-focus
     }
 
+    .services-project-planning.focused {
+        @apply bg-primary-focus
+    }
+
     .services-project-planning-unfocused {
+        @apply bg-primary
+    }
+
+    .services-project-planning.unfocused {
         @apply bg-primary
     }
 
@@ -113,7 +128,15 @@
         @apply bg-primary-dark2/80
     }
 
+    .services-project-execution.focused {
+        @apply bg-primary-dark2/80
+    }
+
     .services-project-execution-unfocused {
+        @apply bg-primary-dark2
+    }
+
+    .services-project-execution.unfocused {
         @apply bg-primary-dark2
     }
 
@@ -121,7 +144,15 @@
         @apply bg-mygrey
     }
 
+    .services-project-closure.focused {
+        @apply bg-mygrey
+    }
+
     .services-project-closure-unfocused {
+        @apply bg-mygrey/80
+    }
+
+    .services-project-closure.unfocused {
         @apply bg-mygrey/80
     }
 }
