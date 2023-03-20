@@ -101,7 +101,7 @@
     }
 
     .tablet-services-btns {
-        @apply absolute z-30 px-2 w-[160px] h-[80px] rounded-full font-unna-700 text-center text-white text-[22px] leading-[25px] flex justify-center items-center cursor-pointer select-none
+        @apply absolute z-30 px-2 w-[160px] xl:w-[165px] h-[80px] xl:h-[90px] rounded-full font-unna-700 text-center text-white text-[22px] leading-[25px] flex justify-center items-center cursor-pointer select-none
     }
 
     .tablet-services-div-title {

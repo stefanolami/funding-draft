@@ -92,9 +92,9 @@
                 <p class="mt-4 text-center font-jose-400-it text-[14px] leading-[16px]">We can step in at any point of the cycle, <br>or provide relevant training</p>
                 <div class="swiper mt-4">
                     <!-- Additional required wrapper -->
-                    <div class="swiper-wrapper">
+                    <div id="swiper-container" class="swiper-wrapper">
                         <!-- Slides -->
-                        <div class="swiper-slide h-96">    <!-- FIRST SLIDE -->
+                        <div id="mobile-slide-1" class="swiper-slide h-96">    <!-- FIRST SLIDE -->
                             <h4 class="font-unna-700 text-[18px] leading-[20px] text-mygreen text-center">PROJECT INITIATION</h4>
                             <div class="grid grid-cols-2 gap-2 h-52 mx-5 mt-6 mb-12">
                                 <div class="grid grid-rows-3 gap-3">
@@ -112,15 +112,16 @@
                                 <div class="hidden mobile-project-initiation bg-mygreen/[.2] rounded-[40px] pt-4 px-2">
                                     <h6 class="mb-2 font-unna-700 text-[14px] leading-[16px] text-center text-mygreen">IDEA DEVELOPMENT</h6>
                                     <ul class="font-jose-400 text-[11px] leading-[13px] list-disc pl-3">
-                                        <li>Creativity process to gather ideas, thoughts and inspiration</li>
-                                        <li>Structured process to find new ideas which can be filtered into a catalogue of concrete opportunities with the most potential</li>
+                                        <li>Modification of the ideas / sorting out the best opportunities from the idea catalogue</li>
+                                        <li>What is possible, who is the customer, is there added value for your customer/end-user</li>  
                                     </ul>
                                 </div>
                                 <div class="hidden mobile-project-initiation bg-mygreen/[.2] rounded-[40px] pt-4 px-2">
                                     <h6 class="mb-2 font-unna-700 text-[14px] leading-[16px] text-center text-mygreen">FUNDING MATCH</h6>
                                     <ul class="font-jose-400 text-[11px] leading-[13px] list-disc pl-3">
-                                        <li>Creativity process to gather ideas, thoughts and inspiration</li>
-                                        <li>Structured process to find new ideas which can be filtered into a catalogue of concrete opportunities with the most potential</li>
+                                        <li>Searching the funding landscape for opportunities matching your idea</li>
+                                        <li>Evaluating opportunities according to your business strategy</li>
+                                        <li>Report including evaluation of the opportunities and funding scheme</li>
                                     </ul>
                                 </div>
                             </div>
@@ -128,7 +129,7 @@
                                 <div>GET IN TOUCH</div>
                             </a>
                         </div>
-                        <div class="swiper-slide h-96">    <!-- SECOND SLIDE -->
+                        <div id="mobile-slide-2" class="swiper-slide h-96">    <!-- SECOND SLIDE -->
                             <h4 class="font-unna-700 text-[18px] leading-[20px] text-primary-focus text-center">PROJECT PLANNING</h4>
                             <div class="grid grid-cols-2 gap-2 h-52 mx-5 mt-6 mb-12">
                                 <div class="grid grid-rows-3 gap-3">
@@ -139,22 +140,24 @@
                                 <div class="block mobile-project-planning bg-primary/[.2] rounded-[40px] pt-4 px-2">
                                     <h6 class="mb-2 font-unna-700 text-[14px] leading-[16px] text-center text-primary">IDEA TO PROJECT</h6>
                                     <ul class="font-jose-400 text-[11px] leading-[13px] list-disc pl-3">
-                                        <li>Creativity process to gather ideas, thoughts and inspiration</li>
-                                        <li>Structured process to find new ideas which can be filtered into a catalogue of concrete opportunities with the most potential</li>
+                                        <li>Breaking the idea down to major development stages, showing where or what development is needed to go from state-of-the-art to the expected outcomes and results</li>
+                                        <li>Drafting first project structure</li>
                                     </ul>
                                 </div>
                                 <div class="hidden mobile-project-planning bg-primary/[.2] rounded-[40px] pt-4 px-2">
                                     <h6 class="mb-2 font-unna-700 text-[14px] leading-[16px] text-center text-primary">PROJECT DEVELOPMENT</h6>
                                     <ul class="font-jose-400 text-[11px] leading-[13px] list-disc pl-3">
-                                        <li>Creativity process to gather ideas, thoughts and inspiration</li>
-                                        <li>Structured process to find new ideas which can be filtered into a catalogue of concrete opportunities with the most potential</li>
+                                        <li>Building project structure and defining work-packages and tasks</li>
+                                        <li>Identifying available knowledge, assigning  task and needed knowledge from new partners</li>
+                                        <li>Partner search and Consortium building</li>
                                     </ul>
                                 </div>
                                 <div class="hidden mobile-project-planning bg-primary/[.2] rounded-[40px] pt-4 px-2">
                                     <h6 class="mb-2 font-unna-700 text-[14px] leading-[16px] text-center text-primary">PROJECT PROPOSAL</h6>
                                     <ul class="font-jose-400 text-[11px] leading-[13px] list-disc pl-3">
-                                        <li>Creativity process to gather ideas, thoughts and inspiration</li>
-                                        <li>Structured process to find new ideas which can be filtered into a catalogue of concrete opportunities with the most potential</li>
+                                        <li>Managing the writing process, building project budget, proofreading input from partners, verification of alignment 
+                                            with EU national and regional policy, ongoing contact with the relevant authorities
+                                        </li>
                                     </ul>
                                 </div>
                             </div>
@@ -162,33 +165,34 @@
                                 <div>GET IN TOUCH</div>
                             </a>
                         </div>
-                        <div class="swiper-slide h-96">    <!-- THIRD SLIDE -->
+                        <div id="mobile-slide-3" class="swiper-slide h-96">    <!-- THIRD SLIDE -->
                             <h4 class="font-unna-700 text-[18px] leading-[20px] text-primary-dark2 text-center">PROJECT EXECUTION</h4>
                             <div class="grid grid-cols-2 gap-2 h-52 mx-5 mt-6 mb-12">
                                 <div class="grid grid-rows-3 gap-3">
-                                    <div class="mobile-project-execution-btns services-project-execution-focused flex justify-center items-center px-3 text-center font-unna-700 text-[16px] leading-[18px] text-white rounded-full cursor-pointer">Contract Negociation</div>
+                                    <div class="mobile-project-execution-btns services-project-execution-focused flex justify-center items-center px-3 text-center font-unna-700 text-[16px] leading-[18px] text-white rounded-full cursor-pointer">Contract Negotiation</div>
                                     <div class="mobile-project-execution-btns services-project-execution-unfocused flex justify-center items-center px-3 text-center font-unna-700 text-[16px] leading-[18px] text-white rounded-full cursor-pointer">Project Implementation</div>
                                     <div class="mobile-project-execution-btns services-project-execution-unfocused flex justify-center items-center px-3 text-center font-unna-700 text-[16px] leading-[18px] text-white rounded-full cursor-pointer">Project Communication</div>
                                 </div>
                                 <div class="block mobile-project-execution bg-primary-dark2/[.2] rounded-[40px] pt-4 px-2">
-                                    <h6 class="mb-2 font-unna-700 text-[14px] leading-[16px] text-center text-primary-dark2">CONTRACT NEGOCIATION</h6>
+                                    <h6 class="mb-2 font-unna-700 text-[14px] leading-[16px] text-center text-primary-dark2">CONTRACT NEGOTIATION</h6>
                                     <ul class="font-jose-400 text-[11px] leading-[13px] list-disc pl-3">
-                                        <li>Creativity process to gather ideas, thoughts and inspiration</li>
-                                        <li>Structured process to find new ideas which can be filtered into a catalogue of concrete opportunities with the most potential</li>
+                                        <li>Responding to funding offer modifications in project description, according to offer</li>
+                                        <li>Finalisation of the Consortium agreement</li>
+                                        <li>Signing funding contracts and Consortium agreement by all partners</li>
                                     </ul>
                                 </div>
                                 <div class="hidden mobile-project-execution bg-primary-dark2/[.2] rounded-[40px] pt-4 px-2">
                                     <h6 class="mb-2 font-unna-700 text-[14px] leading-[16px] text-center text-primary-dark2">PROJECT IMPLEMENTATION</h6>
                                     <ul class="font-jose-400 text-[11px] leading-[13px] list-disc pl-3">
-                                        <li>Creativity process to gather ideas, thoughts and inspiration</li>
-                                        <li>Structured process to find new ideas which can be filtered into a catalogue of concrete opportunities with the most potential</li>
+                                        <li>Progress monitoring and management, including organising project meetings and the general assembly</li>
+                                        <li>Financial and administrative project management, including communication with funding authorities</li>
                                     </ul>
                                 </div>
                                 <div class="hidden mobile-project-execution bg-primary-dark2/[.2] rounded-[40px] pt-4 px-2">
                                     <h6 class="mb-2 font-unna-700 text-[14px] leading-[16px] text-center text-primary-dark2">PROJECT COMMUNICATION</h6>
                                     <ul class="font-jose-400 text-[11px] leading-[13px] list-disc pl-3">
-                                        <li>Creativity process to gather ideas, thoughts and inspiration</li>
-                                        <li>Structured process to find new ideas which can be filtered into a catalogue of concrete opportunities with the most potential</li>
+                                        <li>Internal communication management – e.g. data storage and email</li>
+                                        <li>External communication setup, dissemination and exploitation activities – e.g. social media, newsletters, websites</li>
                                     </ul>
                                 </div>
                             </div>
@@ -196,7 +200,7 @@
                                 <div>GET IN TOUCH</div>
                             </a>
                         </div>
-                        <div class="swiper-slide h-96">    <!-- FOURTH SLIDE -->
+                        <div id="mobile-slide-4" class="swiper-slide h-96">    <!-- FOURTH SLIDE -->
                             <h4 class="font-unna-700 text-[18px] leading-[20px] text-mygrey text-center">PROJECT CLOSURE</h4>
                             <div class="grid grid-cols-2 gap-2 h-52 mx-5 mt-6 mb-12">
                                 <div class="grid grid-rows-3 gap-3">
@@ -207,22 +211,21 @@
                                 <div class="block mobile-project-closure bg-mygrey/[.2] rounded-[40px] pt-4 px-2">
                                     <h6 class="mb-2 font-unna-700 text-[14px] leading-[16px] text-center text-mygrey">COMPLETION OF PROJECT</h6>
                                     <ul class="font-jose-400 text-[11px] leading-[13px] list-disc pl-3">
-                                        <li>Creativity process to gather ideas, thoughts and inspiration</li>
-                                        <li>Structured process to find new ideas which can be filtered into a catalogue of concrete opportunities with the most potential</li>
+                                        <li>Final reporting</li>
+                                        <li>Evaluation and measurement of main results compared to predefined expected outcome, listing and description of unexpected findings and side-results</li>
+                                        <li>Communication strategy for results</li>
                                     </ul>
                                 </div>
                                 <div class="hidden mobile-project-closure bg-mygrey/[.2] rounded-[40px] pt-4 px-2">
                                     <h6 class="mb-2 font-unna-700 text-[14px] leading-[16px] text-center text-mygrey">MARKET INTRODUCTION</h6>
                                     <ul class="font-jose-400 text-[11px] leading-[13px] list-disc pl-3">
-                                        <li>Creativity process to gather ideas, thoughts and inspiration</li>
-                                        <li>Structured process to find new ideas which can be filtered into a catalogue of concrete opportunities with the most potential</li>
+                                        <li>Product introduction to market – i.e. development of business plan, market penetration strategy, marketing management strategy and product assortment (market) strategy </li>
                                     </ul>
                                 </div>
                                 <div class="hidden mobile-project-closure bg-mygrey/[.2] rounded-[40px] pt-4 px-2">
                                     <h6 class="mb-2 font-unna-700 text-[14px] leading-[16px] text-center text-mygrey">NEW POSSIBILITIES</h6>
                                     <ul class="font-jose-400 text-[11px] leading-[13px] list-disc pl-3">
-                                        <li>Creativity process to gather ideas, thoughts and inspiration</li>
-                                        <li>Structured process to find new ideas which can be filtered into a catalogue of concrete opportunities with the most potential</li>
+                                        <li>Inspiration for further development – i.e. start the process all over again, with or without the brainstorming to extract and expand on the ideas coming out from the project.</li>
                                     </ul>
                                 </div>
                             </div>
@@ -233,8 +236,8 @@
                     </div>
                   
                     <!-- If we need navigation buttons -->
-                    <div class="swiper-button-prev text-black -translate-y-[180px] scale-[.45]"></div>
-                    <div class="swiper-button-next text-black -translate-y-[180px] scale-[.45]"></div>
+                    <div class="swiper-button-prev text-black -translate-y-[180px] scale-[.45] select-none"></div>
+                    <div class="swiper-button-next text-black -translate-y-[180px] scale-[.45] select-none"></div>
                   </div>
             </div>
 
@@ -242,130 +245,10 @@
 
 
 
+
             <!-- TABLET / DESKTOP OUR SERVICES -->
 
             <!-- <div class="hidden md:block mt-14">
-                <h1 class="text-center font-unna-700 text-[39px] leading:-[45px]">OUR SERVICES</h1>
-                <p class="mt-8 text-center font-jose-400-it text-[21px] leading-[26px]">We can step in at any point of the cycle, <br>or provide relevant training</p>
-                <div class="relative w-[770px] mx-auto mt-40 mb-60 select-none">
-                    <img class="w-[680px] pr-10 mx-auto z-[-10]" src="../../images/our-services/arrows.png" alt="">
-                    <div class="absolute z-10 -top-32 right-8 w-[160px] text-mygreen text-center font-unna-700 text-[31px] leading-[36px]">PROJECT INITIATION</div>
-                    <div class="absolute z-10 -bottom-32 right-8 w-[160px] text-primary text-center font-unna-700 text-[31px] leading-[36px]">PROJECT PLANNING</div>
-                    <div class="absolute z-10 -bottom-32 left-6 w-[160px] text-primary-dark2 text-center font-unna-700 text-[31px] leading-[36px]">PROJECT EXECUTION</div>
-                    <div class="absolute z-10 -top-32 left-6 w-[160px] text-mygrey/80 text-center font-unna-700 text-[31px] leading-[36px]">PROJECT CLOSURE</div>
-
-
-                    <div class="-top-16 left-80 tablet-services-btns tablet-project-initiation-btns services-project-initiation unfocused">Brainstorming</div>
-                    <div class="top-3 right-32 tablet-services-btns tablet-project-initiation-btns services-project-initiation unfocused">Idea Development</div>
-                    <div class="top-32 right-4 tablet-services-btns tablet-project-initiation-btns services-project-initiation unfocused">Funding Match</div>
-                    <div class="top-[263px] right-4 tablet-services-btns tablet-project-planning-btns services-project-planning unfocused">Idea to Project</div>
-                    <div class="bottom-20 right-20 tablet-services-btns tablet-project-planning-btns services-project-planning unfocused">Project Development</div>
-                    <div class="-bottom-7 right-48 tablet-services-btns tablet-project-planning-btns services-project-planning unfocused">Project Proposal</div>
-                    <div class="-bottom-7 left-56 tablet-services-btns tablet-project-execution-btns services-project-execution unfocused">Contract Negotiation</div>
-                    <div class="bottom-20 left-24 tablet-services-btns tablet-project-execution-btns services-project-execution unfocused">Project Implementation</div>
-                    <div class="top-[263px] left-10 tablet-services-btns tablet-project-execution-btns services-project-execution unfocused">Project Communication</div>
-                    <div class="top-32 left-10 tablet-services-btns tablet-project-closure-btns services-project-closure unfocused">Completion of Project</div>
-                    <div class="-top-8 left-0 tablet-services-btns tablet-project-closure-btns services-project-closure unfocused">Market Introduction</div>
-                    <div class="top-3 left-40 tablet-services-btns tablet-project-closure-btns services-project-closure unfocused">New Possibilities</div>
-
-
-                    <img id="tablet-services-logo" class="block w-[425px] absolute z-10 top-20 left-[188px]" src="../../images/our-services/T&P-Logo-services-tablet.png" alt="">
-
-
-                    <div class="hidden absolute tablet-services-div tablet-project-initiation top-44 left-[210px] z-20 w-[362px] h-[212px]">
-                        <h6 class="tablet-services-div-title  text-mygreen">BRAINSTORMING</h6>
-                        <ul class="font-jose-400 text-[17px] leading-[21px] list-disc pl-4">
-                            <li>Creativity process to gather ideas, thoughts and inspiration</li>
-                            <li>Structured process to find new ideas which can be filtered into a catalogue of concrete opportunities with the most potential</li>
-                        </ul>
-                    </div>
-                    <div class="hidden absolute tablet-services-div tablet-project-initiation top-44 left-[210px] z-20 w-[362px] h-[212px]">
-                        <h6 class="tablet-services-div-title text-mygreen">IDEA DEVELOPMENT</h6>
-                        <ul class="font-jose-400 text-[17px] leading-[21px] list-disc pl-4">
-                            <li>Creativity process to gather ideas, thoughts and inspiration</li>
-                            <li>Structured process to find new ideas which can be filtered into a catalogue of concrete opportunities with the most potential</li>
-                        </ul>
-                    </div>
-                    <div class="hidden absolute tablet-services-div tablet-project-initiation top-44 left-[210px] z-20 w-[362px] h-[212px]">
-                        <h6 class="tablet-services-div-title text-mygreen">FUNDING MATCH</h6>
-                        <ul class="font-jose-400 text-[17px] leading-[21px] list-disc pl-4">
-                            <li>Creativity process to gather ideas, thoughts and inspiration</li>
-                            <li>Structured process to find new ideas which can be filtered into a catalogue of concrete opportunities with the most potential</li>
-                        </ul>
-                    </div>
-                    <div class="hidden absolute tablet-services-div tablet-project-planning top-44 left-[210px] z-20 w-[362px] h-[212px]">
-                        <h6 class="tablet-services-div-title text-primary-focus">IDEA TO PROJECT</h6>
-                        <ul class="font-jose-400 text-[17px] leading-[21px] list-disc pl-4">
-                            <li>Creativity process to gather ideas, thoughts and inspiration</li>
-                            <li>Structured process to find new ideas which can be filtered into a catalogue of concrete opportunities with the most potential</li>
-                        </ul>
-                    </div>
-                    <div class="hidden absolute tablet-services-div tablet-project-planning top-44 left-[210px] z-20 w-[362px] h-[212px]">
-                        <h6 class="tablet-services-div-title text-primary-focus">PROJECT DEVELOPMENT</h6>
-                        <ul class="font-jose-400 text-[17px] leading-[21px] list-disc pl-4">
-                            <li>Creativity process to gather ideas, thoughts and inspiration</li>
-                            <li>Structured process to find new ideas which can be filtered into a catalogue of concrete opportunities with the most potential</li>
-                        </ul>
-                    </div>
-                    <div class="hidden absolute tablet-services-div tablet-project-planning top-44 left-[210px] z-20 w-[362px] h-[212px]">
-                        <h6 class="tablet-services-div-title text-primary-focus">PROJECT PROPOSAL</h6>
-                        <ul class="font-jose-400 text-[17px] leading-[21px] list-disc pl-4">
-                            <li>Creativity process to gather ideas, thoughts and inspiration</li>
-                            <li>Structured process to find new ideas which can be filtered into a catalogue of concrete opportunities with the most potential</li>
-                        </ul>
-                    </div>
-                    <div class="hidden absolute tablet-services-div tablet-project-execution top-44 left-[210px] z-20 w-[362px] h-[212px]">
-                        <h6 class="tablet-services-div-title text-primary-dark2/80">CONTRACT NEGOTIATION</h6>
-                        <ul class="font-jose-400 text-[17px] leading-[21px] list-disc pl-4">
-                            <li>Creativity process to gather ideas, thoughts and inspiration</li>
-                            <li>Structured process to find new ideas which can be filtered into a catalogue of concrete opportunities with the most potential</li>
-                        </ul>
-                    </div>
-                    <div class="hidden absolute tablet-services-div tablet-project-execution top-44 left-[210px] z-20 w-[362px] h-[212px]">
-                        <h6 class="tablet-services-div-title text-primary-dark2/80">PROJECT IMPLEMENTATION</h6>
-                        <ul class="font-jose-400 text-[17px] leading-[21px] list-disc pl-4">
-                            <li>Creativity process to gather ideas, thoughts and inspiration</li>
-                            <li>Structured process to find new ideas which can be filtered into a catalogue of concrete opportunities with the most potential</li>
-                        </ul>
-                    </div>
-                    <div class="hidden absolute tablet-services-div tablet-project-execution top-44 left-[210px] z-20 w-[362px] h-[212px]">
-                        <h6 class="tablet-services-div-title text-primary-dark2/80">PROJECT COMMUNICATION</h6>
-                        <ul class="font-jose-400 text-[17px] leading-[21px] list-disc pl-4">
-                            <li>Creativity process to gather ideas, thoughts and inspiration</li>
-                            <li>Structured process to find new ideas which can be filtered into a catalogue of concrete opportunities with the most potential</li>
-                        </ul>
-                    </div>
-                    <div class="hidden absolute tablet-services-div tablet-project-closure top-44 left-[210px] z-20 w-[362px] h-[212px]">
-                        <h6 class="tablet-services-div-title text-mygrey">COMPLETION OF PROJECT</h6>
-                        <ul class="font-jose-400 text-[17px] leading-[21px] list-disc pl-4">
-                            <li>Creativity process to gather ideas, thoughts and inspiration</li>
-                            <li>Structured process to find new ideas which can be filtered into a catalogue of concrete opportunities with the most potential</li>
-                        </ul>
-                    </div>
-                    <div class="hidden absolute tablet-services-div tablet-project-closure top-44 left-[210px] z-20 w-[362px] h-[212px]">
-                        <h6 class="tablet-services-div-title text-mygrey">MARKET INTRODUCTION</h6>
-                        <ul class="font-jose-400 text-[17px] leading-[21px] list-disc pl-4">
-                            <li>Creativity process to gather ideas, thoughts and inspiration</li>
-                            <li>Structured process to find new ideas which can be filtered into a catalogue of concrete opportunities with the most potential</li>
-                        </ul>
-                    </div>
-                    <div class="hidden absolute tablet-services-div tablet-project-closure top-44 left-[210px] z-20 w-[362px] h-[212px]">
-                        <h6 class="tablet-services-div-title text-mygrey">NEW POSSIBILITIES</h6>
-                        <ul class="font-jose-400 text-[17px] leading-[21px] list-disc pl-4">
-                            <li>Creativity process to gather ideas, thoughts and inspiration</li>
-                            <li>Structured process to find new ideas which can be filtered into a catalogue of concrete opportunities with the most potential</li>
-                        </ul>
-                    </div>
-                </div>
-            </div> -->
-
-            <!-- END TABLET / DESKTOP OUR SERVICES -->
-
-
-
-            <!-- TABLET / DESKTOP OUR SERVICES -->
-
-            <div class="hidden md:block mt-14">
                 <h1 class="text-center font-unna-700 text-[39px] leading:-[45px]">OUR SERVICES</h1>
                 <p class="mt-8 text-center font-jose-400-it text-[21px] leading-[26px]">We can step in at any point of the cycle, <br>or provide relevant training</p>
                 <div class="relative w-[770px] mx-auto mt-40 mb-60 select-none">
@@ -393,89 +276,251 @@
                     <img id="tablet-services-logo" class="block w-[425px] absolute z-10 top-20 left-[178px]" src="../../images/our-services/T&P-Logo-services-tablet.png" alt="">
 
 
-                    <div class="hidden absolute tablet-services-div tablet-project-initiation top-44 left-[210px] z-20 w-[362px] h-[212px]">
+                    <div class="hidden absolute tablet-services-div tablet-project-initiation top-44 xl:top-[200px] left-[210px] xl:left-[330px] z-20 w-[402px] h-[340px]">
                         <h6 class="tablet-services-div-title  text-mygreen">BRAINSTORMING</h6>
-                        <ul class="font-jose-400 text-[17px] leading-[21px] list-disc pl-4">
+                        <ul class="font-jose-400 text-[17px] xl:text-[21px] leading-[21px] xl:leading-[24px] list-disc pl-4 xl:pl-6">
                             <li>Creativity process to gather ideas, thoughts and inspiration</li>
                             <li>Structured process to find new ideas which can be filtered into a catalogue of concrete opportunities with the most potential</li>
                         </ul>
                     </div>
-                    <div class="hidden absolute tablet-services-div tablet-project-initiation top-44 left-[210px] z-20 w-[362px] h-[212px]">
+                    <div class="hidden absolute tablet-services-div tablet-project-initiation top-44 xl:top-[200px] left-[210px] xl:left-[330px] z-20 w-[402px] h-[340px]">
                         <h6 class="tablet-services-div-title text-mygreen">IDEA DEVELOPMENT</h6>
-                        <ul class="font-jose-400 text-[17px] leading-[21px] list-disc pl-4">
+                        <ul class="font-jose-400 text-[17px] xl:text-[21px] leading-[21px] xl:leading-[24px] list-disc pl-4 xl:pl-6">
                             <li>Creativity process to gather ideas, thoughts and inspiration</li>
                             <li>Structured process to find new ideas which can be filtered into a catalogue of concrete opportunities with the most potential</li>
                         </ul>
                     </div>
-                    <div class="hidden absolute tablet-services-div tablet-project-initiation top-44 left-[210px] z-20 w-[362px] h-[212px]">
+                    <div class="hidden absolute tablet-services-div tablet-project-initiation top-44 xl:top-[200px] left-[210px] xl:left-[330px] z-20 w-[402px] h-[340px]">
                         <h6 class="tablet-services-div-title text-mygreen">FUNDING MATCH</h6>
-                        <ul class="font-jose-400 text-[17px] leading-[21px] list-disc pl-4">
+                        <ul class="font-jose-400 text-[17px] xl:text-[21px] leading-[21px] xl:leading-[24px] list-disc pl-4 xl:pl-6">
                             <li>Creativity process to gather ideas, thoughts and inspiration</li>
                             <li>Structured process to find new ideas which can be filtered into a catalogue of concrete opportunities with the most potential</li>
                         </ul>
                     </div>
-                    <div class="hidden absolute tablet-services-div tablet-project-planning top-44 left-[210px] z-20 w-[362px] h-[212px]">
+                    <div class="hidden absolute tablet-services-div tablet-project-planning top-44 xl:top-[200px] left-[210px] xl:left-[330px] z-20 w-[402px] h-[340px]">
                         <h6 class="tablet-services-div-title text-primary-focus">IDEA TO PROJECT</h6>
-                        <ul class="font-jose-400 text-[17px] leading-[21px] list-disc pl-4">
+                        <ul class="font-jose-400 text-[17px] xl:text-[21px] leading-[21px] xl:leading-[24px] list-disc pl-4 xl:pl-6">
                             <li>Creativity process to gather ideas, thoughts and inspiration</li>
                             <li>Structured process to find new ideas which can be filtered into a catalogue of concrete opportunities with the most potential</li>
                         </ul>
                     </div>
-                    <div class="hidden absolute tablet-services-div tablet-project-planning top-44 left-[210px] z-20 w-[362px] h-[212px]">
+                    <div class="hidden absolute tablet-services-div tablet-project-planning top-44 xl:top-[200px] left-[210px] xl:left-[330px] z-20 w-[402px] h-[340px]">
                         <h6 class="tablet-services-div-title text-primary-focus">PROJECT DEVELOPMENT</h6>
-                        <ul class="font-jose-400 text-[17px] leading-[21px] list-disc pl-4">
+                        <ul class="font-jose-400 text-[17px] xl:text-[21px] leading-[21px] xl:leading-[24px] list-disc pl-4 xl:pl-6">
                             <li>Creativity process to gather ideas, thoughts and inspiration</li>
                             <li>Structured process to find new ideas which can be filtered into a catalogue of concrete opportunities with the most potential</li>
                         </ul>
                     </div>
-                    <div class="hidden absolute tablet-services-div tablet-project-planning top-44 left-[210px] z-20 w-[362px] h-[212px]">
+                    <div class="hidden absolute tablet-services-div tablet-project-planning top-44 xl:top-[200px] left-[210px] xl:left-[330px] z-20 w-[402px] h-[340px]">
                         <h6 class="tablet-services-div-title text-primary-focus">PROJECT PROPOSAL</h6>
-                        <ul class="font-jose-400 text-[17px] leading-[21px] list-disc pl-4">
+                        <ul class="font-jose-400 text-[17px] xl:text-[21px] leading-[21px] xl:leading-[24px] list-disc pl-4 xl:pl-6">
                             <li>Creativity process to gather ideas, thoughts and inspiration</li>
                             <li>Structured process to find new ideas which can be filtered into a catalogue of concrete opportunities with the most potential</li>
                         </ul>
                     </div>
-                    <div class="hidden absolute tablet-services-div tablet-project-execution top-44 left-[210px] z-20 w-[362px] h-[212px]">
+                    <div class="hidden absolute tablet-services-div tablet-project-execution top-44 xl:top-[200px] left-[210px] xl:left-[330px] z-20 w-[402px] h-[340px]">
                         <h6 class="tablet-services-div-title text-primary-dark2/80">CONTRACT NEGOTIATION</h6>
-                        <ul class="font-jose-400 text-[17px] leading-[21px] list-disc pl-4">
+                        <ul class="font-jose-400 text-[17px] xl:text-[21px] leading-[21px] xl:leading-[24px] list-disc pl-4 xl:pl-6">
                             <li>Creativity process to gather ideas, thoughts and inspiration</li>
                             <li>Structured process to find new ideas which can be filtered into a catalogue of concrete opportunities with the most potential</li>
                         </ul>
                     </div>
-                    <div class="hidden absolute tablet-services-div tablet-project-execution top-44 left-[210px] z-20 w-[362px] h-[212px]">
+                    <div class="hidden absolute tablet-services-div tablet-project-execution top-44 xl:top-[200px] left-[210px] xl:left-[330px] z-20 w-[402px] h-[340px]">
                         <h6 class="tablet-services-div-title text-primary-dark2/80">PROJECT IMPLEMENTATION</h6>
-                        <ul class="font-jose-400 text-[17px] leading-[21px] list-disc pl-4">
+                        <ul class="font-jose-400 text-[17px] xl:text-[21px] leading-[21px] xl:leading-[24px] list-disc pl-4 xl:pl-6">
                             <li>Creativity process to gather ideas, thoughts and inspiration</li>
                             <li>Structured process to find new ideas which can be filtered into a catalogue of concrete opportunities with the most potential</li>
                         </ul>
                     </div>
-                    <div class="hidden absolute tablet-services-div tablet-project-execution top-44 left-[210px] z-20 w-[362px] h-[212px]">
+                    <div class="hidden absolute tablet-services-div tablet-project-execution top-44 xl:top-[200px] left-[210px] xl:left-[330px] z-20 w-[402px] h-[340px]">
                         <h6 class="tablet-services-div-title text-primary-dark2/80">PROJECT COMMUNICATION</h6>
-                        <ul class="font-jose-400 text-[17px] leading-[21px] list-disc pl-4">
+                        <ul class="font-jose-400 text-[17px] xl:text-[21px] leading-[21px] xl:leading-[24px] list-disc pl-4 xl:pl-6">
                             <li>Creativity process to gather ideas, thoughts and inspiration</li>
                             <li>Structured process to find new ideas which can be filtered into a catalogue of concrete opportunities with the most potential</li>
                         </ul>
                     </div>
-                    <div class="hidden absolute tablet-services-div tablet-project-closure top-44 left-[210px] z-20 w-[362px] h-[212px]">
+                    <div class="hidden absolute tablet-services-div tablet-project-closure top-44 xl:top-[200px] left-[210px] xl:left-[330px] z-20 w-[402px] h-[340px]">
                         <h6 class="tablet-services-div-title text-mygrey">COMPLETION OF PROJECT</h6>
-                        <ul class="font-jose-400 text-[17px] leading-[21px] list-disc pl-4">
+                        <ul class="font-jose-400 text-[17px] xl:text-[21px] leading-[21px] xl:leading-[24px] list-disc pl-4 xl:pl-6">
                             <li>Creativity process to gather ideas, thoughts and inspiration</li>
                             <li>Structured process to find new ideas which can be filtered into a catalogue of concrete opportunities with the most potential</li>
                         </ul>
                     </div>
-                    <div class="hidden absolute tablet-services-div tablet-project-closure top-44 left-[210px] z-20 w-[362px] h-[212px]">
+                    <div class="hidden absolute tablet-services-div tablet-project-closure top-44 xl:top-[200px] left-[210px] xl:left-[330px] z-20 w-[402px] h-[340px]">
                         <h6 class="tablet-services-div-title text-mygrey">MARKET INTRODUCTION</h6>
-                        <ul class="font-jose-400 text-[17px] leading-[21px] list-disc pl-4">
+                        <ul class="font-jose-400 text-[17px] xl:text-[21px] leading-[21px] xl:leading-[24px] list-disc pl-4 xl:pl-6">
                             <li>Creativity process to gather ideas, thoughts and inspiration</li>
                             <li>Structured process to find new ideas which can be filtered into a catalogue of concrete opportunities with the most potential</li>
                         </ul>
                     </div>
-                    <div class="hidden absolute tablet-services-div tablet-project-closure top-44 left-[210px] z-20 w-[362px] h-[212px]">
+                    <div class="hidden absolute tablet-services-div tablet-project-closure top-44 xl:top-[200px] left-[210px] xl:left-[330px] z-20 w-[402px] h-[340px]">
                         <h6 class="tablet-services-div-title text-mygrey">NEW POSSIBILITIES</h6>
-                        <ul class="font-jose-400 text-[17px] leading-[21px] list-disc pl-4">
+                        <ul class="font-jose-400 text-[17px] xl:text-[21px] leading-[21px] xl:leading-[24px] list-disc pl-4 xl:pl-6">
                             <li>Creativity process to gather ideas, thoughts and inspiration</li>
                             <li>Structured process to find new ideas which can be filtered into a catalogue of concrete opportunities with the most potential</li>
                         </ul>
+                    </div>
+                </div>
+            </div> -->
+
+            <!-- END TABLET / DESKTOP OUR SERVICES -->
+
+
+            <!-- TABLET / DESKTOP OUR SERVICES -->
+
+            <div class="hidden md:block mt-14">
+                <h1 class="text-center font-unna-700 text-[39px] xl:text-[50px] leading:-[45px] xl:leading-[57px]">OUR SERVICES</h1>
+                <p class="mt-8 text-center font-jose-400-it text-[21px] xl:text-[23px] leading-[26px]">We can step in at any point of the cycle, <br>or provide relevant training</p>
+                <div class="relative w-[770px] xl:w-[1050px] mx-auto mt-40 mb-60 select-none">
+                    <img class="xl:hidden w-[680px] pr-[60px] mx-auto z-[-10]" src="../../images/our-services/arrows.png" alt="Arrows">
+                    <img class="hidden xl:block w-[950px] pr-[60px] xl:pr-[100px] mx-auto z-[-10]" src="../../images/our-services/arrows-desktop.png" alt="Arrows">
+                    <div class="absolute z-10 -top-32 xl:-top-16 right-8 xl:right-12 w-[160px] text-mygreen text-center font-unna-700 text-[31px] leading-[36px]">PROJECT INITIATION</div>
+                    <div class="absolute z-10 -bottom-32 xl:-bottom-12 right-8 xl:right-12 w-[160px] text-primary text-center font-unna-700 text-[31px] leading-[36px]">PROJECT PLANNING</div>
+                    <div class="absolute z-10 -bottom-32 xl:-bottom-12 left-6 xl:left-16 w-[160px] text-primary-dark2 text-center font-unna-700 text-[31px] leading-[36px]">PROJECT EXECUTION</div>
+                    <div class="absolute z-10 -top-32 xl:-top-16 left-6 xl:left-16 w-[160px] text-mygrey/80 text-center font-unna-700 text-[31px] leading-[36px]">PROJECT CLOSURE</div>
+
+
+                    <div class="-top-16 xl:-top-11 left-[310px] xl:left-[445px] tablet-services-btns tablet-project-initiation-btns services-project-initiation unfocused">Brainstorming</div>
+                    <div class="top-3 right-36 xl:right-60 tablet-services-btns tablet-project-initiation-btns services-project-initiation unfocused">Idea Development</div>
+                    <div class="top-[120px] xl:top-36 right-8 xl:right-24 tablet-services-btns tablet-project-initiation-btns services-project-initiation unfocused">Funding Match</div>
+                    <div class="top-64 xl:top-[300px] right-8 xl:right-16 tablet-services-btns tablet-project-planning-btns services-project-planning unfocused">Idea to Project</div>
+                    <div class="bottom-[72px] xl:bottom-24 right-[90px] xl:right-40 tablet-services-btns tablet-project-planning-btns services-project-planning unfocused">Project Development</div>
+                    <div class="-bottom-7 right-52 xl:right-[330px] tablet-services-btns tablet-project-planning-btns services-project-planning unfocused">Project Proposal</div>
+                    <div class="-bottom-7 left-[215px] xl:left-[345px] tablet-services-btns tablet-project-execution-btns services-project-execution unfocused">Contract Negotiation</div>
+                    <div class="bottom-[72px] xl:bottom-24 left-[106px] xl:left-44 tablet-services-btns tablet-project-execution-btns services-project-execution unfocused">Project Implementation</div>
+                    <div class="top-64 xl:top-[300px] left-10 xl:left-20 tablet-services-btns tablet-project-execution-btns services-project-execution unfocused">Project Communication</div>
+                    <div class="top-[120px] xl:top-36 left-10 xl:left-28 tablet-services-btns tablet-project-closure-btns services-project-closure unfocused">Completion of Project</div>
+                    <div class="-top-8 xl:top-6 left-0 xl:-left-20 tablet-services-btns tablet-project-closure-btns services-project-closure unfocused">Market Introduction</div>
+                    <div class="top-3 left-40 xl:left-60 tablet-services-btns tablet-project-closure-btns services-project-closure unfocused">New Possibilities</div>
+
+
+                    <img id="tablet-services-logo" class="block w-[425px] absolute z-10 top-20 xl:top-40 left-[178px] xl:left-80" src="../../images/our-services/T&P-Logo-services-tablet.png" alt="">
+
+
+                    <div class="hidden absolute tablet-services-div tablet-project-initiation top-44 xl:top-[200px] left-[210px] xl:left-[330px] z-20 w-[402px] h-[340px]">
+                        <h6 class="tablet-services-div-title  text-mygreen">BRAINSTORMING</h6>
+                        <ul class="font-jose-400 text-[17px] xl:text-[21px] leading-[21px] xl:leading-[24px] list-disc pl-4 xl:pl-6">
+                            <li>Creativity process to gather ideas, thoughts and inspiration</li>
+                            <li>Structured process to find new ideas which can be filtered into a catalogue of concrete opportunities with the most potential</li>
+                        </ul>
+                        <a  href="./contact.html" class="hidden xl:flex mx-auto mt-9 w-[181px] h-12  justify-center items-center pt-[2px] font-jose-600 text-[16px] leading-[21px] text-mygreen border-mygreen border-[3px] rounded-full">
+                            <div>GET IN TOUCH</div>
+                        </a>
+                    </div>
+                    <div class="hidden absolute tablet-services-div tablet-project-initiation top-44 xl:top-[200px] left-[210px] xl:left-[330px] z-20 w-[402px] h-[340px]">
+                        <h6 class="tablet-services-div-title text-mygreen">IDEA DEVELOPMENT</h6>
+                        <ul class="font-jose-400 text-[17px] xl:text-[21px] leading-[21px] xl:leading-[24px] list-disc pl-4 xl:pl-6">
+                            <li>Modification of the ideas / sorting out the best opportunities from the idea catalogue</li>
+                            <li>What is possible, who is the customer, is there added value for your customer/end-user</li>
+                        </ul>
+                        <a  href="./contact.html" class="hidden xl:flex mx-auto mt-9 w-[181px] h-12  justify-center items-center pt-[2px] font-jose-600 text-[16px] leading-[21px] text-mygreen border-mygreen border-[3px] rounded-full">
+                            <div>GET IN TOUCH</div>
+                        </a>
+                    </div>
+                    <div class="hidden absolute tablet-services-div tablet-project-initiation top-44 xl:top-[200px] left-[210px] xl:left-[330px] z-20 w-[402px] h-[340px]">
+                        <h6 class="tablet-services-div-title text-mygreen">FUNDING MATCH</h6>
+                        <ul class="font-jose-400 text-[17px] xl:text-[21px] leading-[21px] xl:leading-[24px] list-disc pl-4 xl:pl-6">
+                            <li>Searching the funding landscape for opportunities matching your idea</li>
+                            <li>Evaluating opportunities according to your business strategy</li>
+                            <li>Report including evaluation of the opportunities and funding scheme</li>
+                        </ul>
+                        <a  href="./contact.html" class="hidden xl:flex mx-auto mt-9 w-[181px] h-12  justify-center items-center pt-[2px] font-jose-600 text-[16px] leading-[21px] text-mygreen border-mygreen border-[3px] rounded-full">
+                            <div>GET IN TOUCH</div>
+                        </a>
+                    </div>
+                    <div class="hidden absolute tablet-services-div tablet-project-planning top-44 xl:top-[200px] left-[210px] xl:left-[330px] z-20 w-[402px] h-[340px]">
+                        <h6 class="tablet-services-div-title text-primary-focus">IDEA TO PROJECT</h6>
+                        <ul class="font-jose-400 text-[17px] xl:text-[21px] leading-[21px] xl:leading-[24px] list-disc pl-4 xl:pl-6">
+                            <li>Breaking the idea down to major development stages, showing where or what development is needed to go from state-of-the-art 
+                                to the expected outcomes and results
+                            </li>
+                            <li>Drafting first project structure</li>
+                        </ul>
+                        <a  href="./contact.html" class="hidden xl:flex mx-auto mt-9 w-[181px] h-12  justify-center items-center pt-[2px] font-jose-600 text-[16px] leading-[21px] text-primary border-primary border-[3px] rounded-full">
+                            <div>GET IN TOUCH</div>
+                        </a>
+                    </div>
+                    <div class="hidden absolute tablet-services-div tablet-project-planning top-44 xl:top-[200px] left-[210px] xl:left-[330px] z-20 w-[402px] h-[340px]">
+                        <h6 class="tablet-services-div-title text-primary-focus">PROJECT DEVELOPMENT</h6>
+                        <ul class="font-jose-400 text-[17px] xl:text-[21px] leading-[21px] xl:leading-[24px] list-disc pl-4 xl:pl-6">
+                            <li>Building project structure and defining work-packages and tasks</li>
+                            <li>Identifying available knowledge, assigning  task and needed knowledge from new partners</li>
+                            <li>Partner search and Consortium building</li>                           
+                        </ul>
+                        <a  href="./contact.html" class="hidden xl:flex mx-auto mt-9 w-[181px] h-12  justify-center items-center pt-[2px] font-jose-600 text-[16px] leading-[21px] text-primary border-primary border-[3px] rounded-full">
+                            <div>GET IN TOUCH</div>
+                        </a>
+                    </div>
+                    <div class="hidden absolute tablet-services-div tablet-project-planning top-44 xl:top-[200px] left-[210px] xl:left-[330px] z-20 w-[402px] h-[340px]">
+                        <h6 class="tablet-services-div-title text-primary-focus">PROJECT PROPOSAL</h6>
+                        <ul class="font-jose-400 text-[17px] xl:text-[21px] leading-[21px] xl:leading-[24px] list-disc pl-4 xl:pl-6">
+                            <li>Managing the writing process, building project budget, proofreading input from partners, verification of alignment with EU national 
+                                and regional policy, ongoing contact with the relevant authorities
+                            </li>
+                        </ul>
+                        <a  href="./contact.html" class="hidden xl:flex mx-auto mt-9 w-[181px] h-12  justify-center items-center pt-[2px] font-jose-600 text-[16px] leading-[21px] text-primary border-primary border-[3px] rounded-full">
+                            <div>GET IN TOUCH</div>
+                        </a>
+                    </div>
+                    <div class="hidden absolute tablet-services-div tablet-project-execution top-44 xl:top-[200px] left-[210px] xl:left-[330px] z-20 w-[402px] h-[340px]">
+                        <h6 class="tablet-services-div-title text-primary-dark2/80">CONTRACT NEGOTIATION</h6>
+                        <ul class="font-jose-400 text-[17px] xl:text-[21px] leading-[21px] xl:leading-[24px] list-disc pl-4 xl:pl-6">
+                            <li>Responding to funding offer modifications in project description, according to offer</li>
+                            <li>Finalisation of the Consortium agreement</li>
+                            <li>Signing funding contracts and Consortium agreement by all partners</li>
+                        </ul>
+                        <a  href="./contact.html" class="hidden xl:flex mx-auto mt-9 w-[181px] h-12  justify-center items-center pt-[2px] font-jose-600 text-[16px] leading-[21px] text-primary-dark2 border-primary-dark2 border-[3px] rounded-full">
+                            <div>GET IN TOUCH</div>
+                        </a>
+                    </div>
+                    <div class="hidden absolute tablet-services-div tablet-project-execution top-44 xl:top-[200px] left-[210px] xl:left-[330px] z-20 w-[402px] h-[340px]">
+                        <h6 class="tablet-services-div-title text-primary-dark2/80">PROJECT IMPLEMENTATION</h6>
+                        <ul class="font-jose-400 text-[17px] xl:text-[21px] leading-[21px] xl:leading-[24px] list-disc pl-4 xl:pl-6">
+                            <li>Progress monitoring and management, including organising project meetings and the general assembly</li>
+                            <li>Financial and administrative project management, including communication with funding authorities</li>
+                        </ul>
+                        <a  href="./contact.html" class="hidden xl:flex mx-auto mt-9 w-[181px] h-12  justify-center items-center pt-[2px] font-jose-600 text-[16px] leading-[21px] text-primary-dark2 border-primary-dark2 border-[3px] rounded-full">
+                            <div>GET IN TOUCH</div>
+                        </a>
+                    </div>
+                    <div class="hidden absolute tablet-services-div tablet-project-execution top-44 xl:top-[200px] left-[210px] xl:left-[330px] z-20 w-[402px] h-[340px]">
+                        <h6 class="tablet-services-div-title text-primary-dark2/80">PROJECT COMMUNICATION</h6>
+                        <ul class="font-jose-400 text-[17px] xl:text-[21px] leading-[21px] xl:leading-[24px] list-disc pl-4 xl:pl-6">
+                            <li>Internal communication management – e.g. data storage and email</li>
+                            <li>External communication setup, dissemination and exploitation activities – e.g. social media, newsletters, websites</li>
+                        </ul>
+                        <a  href="./contact.html" class="hidden xl:flex mx-auto mt-9 w-[181px] h-12  justify-center items-center pt-[2px] font-jose-600 text-[16px] leading-[21px] text-primary-dark2 border-primary-dark2 border-[3px] rounded-full">
+                            <div>GET IN TOUCH</div>
+                        </a>
+                    </div>
+                    <div class="hidden absolute tablet-services-div tablet-project-closure top-44 xl:top-[200px] left-[210px] xl:left-[330px] z-20 w-[402px] h-[340px]">
+                        <h6 class="tablet-services-div-title text-mygrey">COMPLETION OF PROJECT</h6>
+                        <ul class="font-jose-400 text-[17px] xl:text-[21px] leading-[21px] xl:leading-[24px] list-disc pl-4 xl:pl-6">
+                            <li>Final reporting</li>
+                            <li>Evaluation and measurement of main results compared to predefined expected outcome, listing and description of unexpected findings and side-results</li>
+                            <li>Communication strategy for results</li>
+                        </ul>
+                        <a  href="./contact.html" class="hidden xl:flex mx-auto mt-9 w-[181px] h-12  justify-center items-center pt-[2px] font-jose-600 text-[16px] leading-[21px] text-mygrey border-mygrey border-[3px] rounded-full">
+                            <div>GET IN TOUCH</div>
+                        </a>
+                    </div>
+                    <div class="hidden absolute tablet-services-div tablet-project-closure top-44 xl:top-[200px] left-[210px] xl:left-[330px] z-20 w-[402px] h-[340px]">
+                        <h6 class="tablet-services-div-title text-mygrey">MARKET INTRODUCTION</h6>
+                        <ul class="font-jose-400 text-[17px] xl:text-[21px] leading-[21px] xl:leading-[24px] list-disc pl-4 xl:pl-6">
+                            <li>Product introduction to market – i.e. development of business plan, market penetration strategy, marketing management strategy and product assortment (market) strategy</li>
+                        </ul>
+                        <a  href="./contact.html" class="hidden xl:flex mx-auto mt-9 w-[181px] h-12  justify-center items-center pt-[2px] font-jose-600 text-[16px] leading-[21px] text-mygrey border-mygrey border-[3px] rounded-full">
+                            <div>GET IN TOUCH</div>
+                        </a>
+                    </div>
+                    <div class="hidden absolute tablet-services-div tablet-project-closure top-44 xl:top-[200px] left-[210px] xl:left-[330px] z-20 w-[402px] h-[340px]">
+                        <h6 class="tablet-services-div-title text-mygrey">NEW POSSIBILITIES</h6>
+                        <ul class="font-jose-400 text-[17px] xl:text-[21px] leading-[21px] xl:leading-[24px] list-disc pl-4 xl:pl-6">
+                            <li>Inspiration for further development – i.e. start the process all over again, with or without the brainstorming to extract and expand on the ideas coming out from the project.</li>
+                        </ul>
+                        <a  href="./contact.html" class="hidden xl:flex mx-auto mt-9 w-[181px] h-12  justify-center items-center pt-[2px] font-jose-600 text-[16px] leading-[21px] text-mygrey border-mygrey border-[3px] rounded-full">
+                            <div>GET IN TOUCH</div>
+                        </a>
                     </div>
                 </div>
             </div>

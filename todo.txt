@@ -25,6 +25,7 @@ DONE SECTIONS
 
 
 TODO
+    double click needed on mobile services
     services
     interactive map
     buttons hover style
